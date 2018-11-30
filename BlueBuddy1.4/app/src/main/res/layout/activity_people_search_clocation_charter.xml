@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bluebuddy.activities.EnquiryActivity"
+    android:gravity="left"
+    android:focusableInTouchMode="true"
+    android:weightSum="100">
+
+    <include layout="@layout/navbar_blue"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="end"
+        android:weightSum="2"
+        android:layout_height="40dp">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_marginLeft="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <SeekBar
+                android:id="@+id/idseek"
+                android:max="100"
+                android:progress="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:gravity="end"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:background="@drawable/rds"/>
+            <Button
+                android:id="@+id/rdsbtn"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"/>
+        </FrameLayout>
+
+    </LinearLayout>
+
+<!--
+    <include layout="@layout/custom_searchbar"></include>
+-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="92.5"
+        android:orientation="vertical"
+        android:background="@drawable/cmnbg">
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1px"
+    android:background="#757575"
+    />
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="41dp">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="CHARTER"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/transparent"
+                ></android.support.design.widget.TabLayout>
+            </FrameLayout>
+
+        </android.support.design.widget.AppBarLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#757575"
+            />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="84.5"
+            android:background="@drawable/cmnbg">
+            <!--84.5-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="77"
+                android:orientation="vertical"
+                android:weightSum="100">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_view_event"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbars="none">
+
+                </android.support.v7.widget.RecyclerView>
+
+            </LinearLayout>
+
+
+
+        </FrameLayout>
+
+        <!--  <android.support.v4.view.ViewPager
+              android:id="@+id/viewPager"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"></android.support.v4.view.ViewPager>-->
+        <!--   <android.support.v7.widget.RecyclerView
+               android:id="@+id/recycler_view_pplsrch"
+               android:scrollbars="none"
+               android:layout_margin="2dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">-->
+
+        <!--  <ScrollView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+              &lt;!&ndash;
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/lorem"/>
+
+              &ndash;&gt;
+              <include layout="@layout/people_search_list"></include>
+
+          </ScrollView>-->
+
+        <!--  </android.support.v7.widget.RecyclerView>-->
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="84"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <include layout="@layout/people_search_list"></include>
+
+            </ScrollView>
+
+        </LinearLayout>-->
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/custom_footer" />
+
+</LinearLayout>

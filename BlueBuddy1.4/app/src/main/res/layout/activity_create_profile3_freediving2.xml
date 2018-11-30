@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cmnbg"
+    android:gravity="left"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context="com.bluebuddy.activities.CreateProfileActivityfreediving">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7">
+
+        <include layout="@layout/navlayout1" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="93"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+
+            android:layout_marginTop="25dp"
+            android:layout_weight="93"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical|left"
+                android:orientation="vertical">
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/txtv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="2dp"
+                    android:text="Freediving Certification"
+                    android:textColor="#000000"
+                    android:textSize="27sp" />
+                <!--                android:text="@string/txt_t25"
+                -->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:gravity="left|center_horizontal"
+                android:orientation="vertical">
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/idtxt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/agency_name"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/certnameid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/txt_54"
+                    android:inputType="textCapSentences"
+                    android:lines="1"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="6dp"
+                    android:background="#757575" />
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/idtxt4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/txt_t27"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:gravity="left|center_horizontal"
+                android:orientation="vertical">
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/idtxt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_t30"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="10">
+
+                    <EditText
+                        android:id="@+id/certlvlid"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="9"
+                        android:background="@android:color/transparent"
+                        android:hint="@string/txt_55"
+                        android:inputType="textCapSentences"
+                        android:lines="1"
+                        android:maxLength="20"
+                        android:textSize="14.8sp" />
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_add" />
+
+                        <Button
+                            android:id="@+id/add_level"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#00000000" />
+                    </FrameLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="6dp"
+                    android:background="#757575" />
+
+                <LinearLayout
+                    android:id="@+id/newlvl1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:weightSum="10">
+
+                    <EditText
+                        android:id="@+id/certlvlid1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="9"
+                        android:background="@android:color/transparent"
+                        android:hint="@string/txt_55"
+                        android:inputType="textCapSentences"
+                        android:lines="1"
+                        android:maxLength="20"
+                        android:textSize="14.8sp" />
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:src="@drawable/ic_substract" />
+
+                        <Button
+                            android:id="@+id/minus_level1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#00000000" />
+                    </FrameLayout>
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/certlvlid1_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="6dp"
+                    android:background="#757575"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/newlvl2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:weightSum="10">
+
+                    <EditText
+                        android:id="@+id/certlvlid2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="9"
+                        android:background="@android:color/transparent"
+                        android:hint="@string/txt_55"
+                        android:inputType="textCapSentences"
+                        android:lines="1"
+                        android:maxLength="20"
+                        android:textSize="14.8sp" />
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:src="@drawable/ic_substract" />
+
+                        <Button
+                            android:id="@+id/minus_level2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#00000000" />
+                    </FrameLayout>
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/certlvlid2_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="6dp"
+                    android:background="#757575"
+                    android:visibility="gone" />
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/idtxt5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/txt_t31hint"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:gravity="left|center_horizontal"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="75">
+
+                        <com.bluebuddy.classes.MyTextView
+                            android:id="@+id/idtxt2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txt_t28"
+                            android:textColor="#000000"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="25">
+
+                        <com.bluebuddy.classes.MyTextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="25"
+                            android:hint="(Optional)"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <EditText
+                    android:id="@+id/certnumid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/txt_t29hint"
+                    android:inputType="textCapSentences"
+                    android:lines="1"
+                    android:maxLength="15"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="6dp"
+                    android:background="#757575" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="40dp"
+                android:layout_weight="15"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/certdnxtid"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_corner1"
+                    android:onClick="btncertdnxt"
+                    android:text="SUBMIT"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+
+                <Button
+                    android:id="@+id/certdskpid"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_corner1"
+                    android:onClick="cp3skp"
+                    android:text="@string/btn_skp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

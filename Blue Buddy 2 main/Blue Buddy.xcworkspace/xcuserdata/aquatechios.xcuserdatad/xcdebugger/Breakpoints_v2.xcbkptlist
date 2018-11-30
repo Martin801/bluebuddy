@@ -1,0 +1,1202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/NKVPhonePicker/Sources/Views/NKVPhonePickerTextField.swift"
+            timestampString = "531643366.009828"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "presentCountriesViewController()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/NKVPhonePicker/Sources/Views/NKVPhonePickerTextField.swift"
+            timestampString = "531643418.256417"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "135"
+            endingLineNumber = "135"
+            landmarkName = "presentCountriesViewController()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/AddSocialLinkViewController.swift"
+            timestampString = "533303790.465292"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "onTapOutSidePopUp(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/BaseViewController.swift"
+            timestampString = "532501689.66782"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "designTabBarwithSelectedIndex(selectedIndex:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/OTPVerificationViewController.swift"
+            timestampString = "533127045.810703"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Blue_Buddy.OTPVerificationViewController.__deallocating_deinit"
+                  moduleName = "Blue Buddy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aquatechios/Desktop/Poojashree%20Projects/iPhone/Clients%20Projects/Blue%20Buddy/Nov/Nov%2023/Blue%20Buddy/Blue%20Buddy/ViewControllers/OTPVerificationViewController.swift"
+                  timestampString = "533129127.059524"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Blue_Buddy.OTPVerificationViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Blue_Buddy.OTPVerificationViewController"
+                  moduleName = "Blue Buddy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aquatechios/Desktop/Poojashree%20Projects/iPhone/Clients%20Projects/Blue%20Buddy/Nov/Nov%2023/Blue%20Buddy/Blue%20Buddy/ViewControllers/OTPVerificationViewController.swift"
+                  timestampString = "533129127.061431"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Blue_Buddy.OTPVerificationViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Blue_Buddy.OTPVerificationViewController"
+                  moduleName = "Blue Buddy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aquatechios/Desktop/Poojashree%20Projects/iPhone/Clients%20Projects/Blue%20Buddy/Nov/Nov%2023/Blue%20Buddy/Blue%20Buddy/ViewControllers/OTPVerificationViewController.swift"
+                  timestampString = "533129127.063314"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Blue_Buddy.OTPVerificationViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Blue_Buddy.OTPVerificationViewController&gt;"
+                  moduleName = "Blue Buddy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aquatechios/Desktop/Poojashree%20Projects/iPhone/Clients%20Projects/Blue%20Buddy/Nov/Nov%2023/Blue%20Buddy/Blue%20Buddy/ViewControllers/OTPVerificationViewController.swift"
+                  timestampString = "533129127.065163"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Blue_Buddy.OTPVerificationViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Blue_Buddy.OTPVerificationViewController&gt;"
+                  moduleName = "Blue Buddy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aquatechios/Desktop/Poojashree%20Projects/iPhone/Clients%20Projects/Blue%20Buddy/Nov/Nov%2023/Blue%20Buddy/Blue%20Buddy/ViewControllers/OTPVerificationViewController.swift"
+                  timestampString = "533129127.067213"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/RegisterViewController.swift"
+            timestampString = "533128876.848393"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "onClickBtnPhoneCode(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/RegisterViewController.swift"
+            timestampString = "533129125.27239"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "onClickBtnPhoneCode(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/OTPVerificationViewController.swift"
+            timestampString = "534254042.455919"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "onClickSendMobileNo(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Blue_Buddy.OTPVerificationViewController.onClickSendMobileNo (__ObjC.UIButton) -&gt; ()"
+                  moduleName = "Blue Buddy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aquatechios/Desktop/Poojashree%20Projects/iPhone/Clients%20Projects/Blue%20Buddy/Jan/Jan%203/Blue%20Buddy/Blue%20Buddy/ViewControllers/OTPVerificationViewController.swift"
+                  timestampString = "536658311.624827"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "2793">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Blue_Buddy.OTPVerificationViewController.(onClickSendMobileNo (__ObjC.UIButton) -&gt; ()).(closure #1)"
+                  moduleName = "Blue Buddy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aquatechios/Desktop/Poojashree%20Projects/iPhone/Clients%20Projects/Blue%20Buddy/Jan/Jan%203/Blue%20Buddy/Blue%20Buddy/ViewControllers/OTPVerificationViewController.swift"
+                  timestampString = "536658311.626774"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/Parser/UserParser.swift"
+            timestampString = "534251388.914654"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
+            landmarkName = "callsendMobileNoForVerificationService(_:complete:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/LoginViewController.swift"
+            timestampString = "534254042.455919"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "onClickBtnLogin(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/CreateProfileViewController.swift"
+            timestampString = "533211847.864087"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "onClickBtnNext(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/AddSocialLinkViewController.swift"
+            timestampString = "533294909.415757"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "onClickBtnPopUpActions(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/LoginViewController.swift"
+            timestampString = "534254042.455919"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "onClickBtnLogin(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/Parser/BaseParser.swift"
+            timestampString = "536052894.640545"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "246"
+            endingLineNumber = "246"
+            landmarkName = "BaseParser"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/Parser/BaseParser.swift"
+            timestampString = "536052894.640545"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "248"
+            endingLineNumber = "248"
+            landmarkName = "BaseParser"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/AddCoursesViewController.swift"
+            timestampString = "535644932.651911"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "414"
+            endingLineNumber = "414"
+            landmarkName = "touchesBegan(_:with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/FeatureListViewController.swift"
+            timestampString = "533741335.453522"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/FeatureListViewController.swift"
+            timestampString = "533741690.073671"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "onClickBtnType(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/FeatureListViewController.swift"
+            timestampString = "533741695.330453"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "onClickBtnBack(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/CertificationDetailsViewController.swift"
+            timestampString = "535467249.470786"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "onClickBtnNext(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Blue_Buddy.CertificationDetailsViewController.onClickBtnNext (__ObjC.UIButton) -&gt; ()"
+                  moduleName = "Blue Buddy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aquatechios/Desktop/Poojashree%20Projects/iPhone/Clients%20Projects/Blue%20Buddy/Jan/Jan%203/Blue%20Buddy/Blue%20Buddy/ViewControllers/CertificationDetailsViewController.swift"
+                  timestampString = "536658311.673136"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "9945">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Blue_Buddy.CertificationDetailsViewController.(onClickBtnNext (__ObjC.UIButton) -&gt; ()).(closure #1)"
+                  moduleName = "Blue Buddy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aquatechios/Desktop/Poojashree%20Projects/iPhone/Clients%20Projects/Blue%20Buddy/Jan/Jan%203/Blue%20Buddy/Blue%20Buddy/ViewControllers/CertificationDetailsViewController.swift"
+                  timestampString = "536658311.675066"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "41">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/OtherLinkViewController.swift"
+            timestampString = "534254936.560061"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "onClickBtnSkip(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/CreateTripViewController.swift"
+            timestampString = "536151502.427995"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "282"
+            endingLineNumber = "282"
+            landmarkName = "onClickBtnSubmit(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/CreateTripViewController.swift"
+            timestampString = "536151502.427995"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "183"
+            endingLineNumber = "183"
+            landmarkName = "onClickBtnUpdate(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Blue_Buddy.CreateTripViewController.onClickBtnUpdate (__ObjC.UIButton) -&gt; ()"
+                  moduleName = "Blue Buddy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aquatechios/Desktop/Poojashree%20Projects/iPhone/Clients%20Projects/Blue%20Buddy/Jan/Jan%203/Blue%20Buddy/Blue%20Buddy/ViewControllers/CreateTripViewController.swift"
+                  timestampString = "536658311.687065"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "3590">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Blue_Buddy.CreateTripViewController.onClickBtnUpdate (__ObjC.UIButton) -&gt; ()"
+                  moduleName = "Blue Buddy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aquatechios/Desktop/Poojashree%20Projects/iPhone/Clients%20Projects/Blue%20Buddy/Jan/Jan%203/Blue%20Buddy/Blue%20Buddy/ViewControllers/CreateTripViewController.swift"
+                  timestampString = "536658311.689361"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "8972">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/AddCharterViewController.swift"
+            timestampString = "535023850.809549"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "335"
+            endingLineNumber = "335"
+            landmarkName = "textViewDidEndEditing(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/RentalDetailsViewController.swift"
+            timestampString = "536050828.110226"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "180"
+            endingLineNumber = "180"
+            landmarkName = "onClickBtnSubmit(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Blue_Buddy.RentalDetailsViewController.onClickBtnSubmit (__ObjC.UIButton) -&gt; ()"
+                  moduleName = "Blue Buddy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aquatechios/Desktop/Poojashree%20Projects/iPhone/Clients%20Projects/Blue%20Buddy/Jan/Jan%203/Blue%20Buddy/Blue%20Buddy/ViewControllers/RentalDetailsViewController.swift"
+                  timestampString = "536658311.693797"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "180"
+                  endingLineNumber = "180"
+                  offsetFromSymbolStart = "6581">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Blue_Buddy.RentalDetailsViewController.(onClickBtnSubmit (__ObjC.UIButton) -&gt; ()).(closure #1)"
+                  moduleName = "Blue Buddy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aquatechios/Desktop/Poojashree%20Projects/iPhone/Clients%20Projects/Blue%20Buddy/Jan/Jan%203/Blue%20Buddy/Blue%20Buddy/ViewControllers/RentalDetailsViewController.swift"
+                  timestampString = "536658311.696047"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "181"
+                  endingLineNumber = "181"
+                  offsetFromSymbolStart = "45">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/Parser/BaseParser.swift"
+            timestampString = "536052894.640545"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "callWebServiceWithHeader(serverUrl:postValues:methodName:completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Blue_Buddy.BaseParser.(callWebServiceWithHeader (serverUrl : Swift.String, postValues : __ObjC.NSDictionary, methodName : Swift.String, completionHandler : (Swift.Bool, __ObjC.NSDictionary) -&gt; ()) -&gt; ()).(closure #2)"
+                  moduleName = "Blue Buddy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aquatechios/Desktop/Poojashree%20Projects/iPhone/Clients%20Projects/Blue%20Buddy/Jan/Jan%203/Blue%20Buddy/Blue%20Buddy/Parser/BaseParser.swift"
+                  timestampString = "536658311.700532"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "125"
+                  endingLineNumber = "125"
+                  offsetFromSymbolStart = "2311">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Blue_Buddy.BaseParser.(callWebServiceWithHeader (serverUrl : Swift.String, postValues : __ObjC.NSDictionary, methodName : Swift.String, completionHandler : (Swift.Bool, __ObjC.NSDictionary) -&gt; ()) -&gt; ()).(closure #2).(implicit closure #3)"
+                  moduleName = "Blue Buddy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aquatechios/Desktop/Poojashree%20Projects/iPhone/Clients%20Projects/Blue%20Buddy/Jan/Jan%203/Blue%20Buddy/Blue%20Buddy/Parser/BaseParser.swift"
+                  timestampString = "536658311.702536"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "125"
+                  endingLineNumber = "125"
+                  offsetFromSymbolStart = "13">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/AddCharterViewController.swift"
+            timestampString = "535023850.809549"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "180"
+            endingLineNumber = "180"
+            landmarkName = "onClickBtnDelete(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Blue_Buddy.AddCharterViewController.(onClickBtnDelete (__ObjC.UIButton) -&gt; ()).(closure #1).(closure #1).(closure #1).(closure #1)"
+                  moduleName = "Blue Buddy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aquatechios/Desktop/Poojashree%20Projects/iPhone/Clients%20Projects/Blue%20Buddy/Jan/Jan%203/Blue%20Buddy/Blue%20Buddy/ViewControllers/AddCharterViewController.swift"
+                  timestampString = "536658311.707454"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "180"
+                  endingLineNumber = "180"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Blue_Buddy.AddCharterViewController.(onClickBtnDelete (__ObjC.UIButton) -&gt; ()).(closure #1).(closure #1).(closure #1).(closure #1).(closure #1)"
+                  moduleName = "Blue Buddy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aquatechios/Desktop/Poojashree%20Projects/iPhone/Clients%20Projects/Blue%20Buddy/Jan/Jan%203/Blue%20Buddy/Blue%20Buddy/ViewControllers/AddCharterViewController.swift"
+                  timestampString = "536658311.709361"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "181"
+                  endingLineNumber = "181"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/AddCoursesViewController.swift"
+            timestampString = "535644932.651911"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "306"
+            endingLineNumber = "306"
+            landmarkName = "onClickBtnNext(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Blue_Buddy.AddCoursesViewController.onClickBtnNext (__ObjC.UIButton) -&gt; ()"
+                  moduleName = "Blue Buddy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aquatechios/Desktop/Poojashree%20Projects/iPhone/Clients%20Projects/Blue%20Buddy/Jan/Jan%203/Blue%20Buddy/Blue%20Buddy/ViewControllers/AddCoursesViewController.swift"
+                  timestampString = "536658311.714041"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "306"
+                  endingLineNumber = "306"
+                  offsetFromSymbolStart = "14784">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Blue_Buddy.AddCoursesViewController.(onClickBtnNext (__ObjC.UIButton) -&gt; ()).(closure #1)"
+                  moduleName = "Blue Buddy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aquatechios/Desktop/Poojashree%20Projects/iPhone/Clients%20Projects/Blue%20Buddy/Jan/Jan%203/Blue%20Buddy/Blue%20Buddy/ViewControllers/AddCoursesViewController.swift"
+                  timestampString = "536658311.71595"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "307"
+                  endingLineNumber = "307"
+                  offsetFromSymbolStart = "59">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/RentalDetailsViewController.swift"
+            timestampString = "536050828.110226"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "185"
+            endingLineNumber = "185"
+            landmarkName = "onClickBtnSubmit(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/EditProfileViewController.swift"
+            timestampString = "535385843.856469"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/BoatRentalViewController.swift"
+            timestampString = "535633667.451487"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "onClickBtnCurrLoc(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/BoatRentalViewController.swift"
+            timestampString = "535633667.451487"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "onClickBtnCurrLoc(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/BoatRentalViewController.swift"
+            timestampString = "535633667.451487"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "onClickBtnCurrLoc(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/CourseListViewController.swift"
+            timestampString = "535643455.019423"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "onClickBtnHeaderSelection(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/AddCoursesViewController.swift"
+            timestampString = "535644932.651911"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "245"
+            endingLineNumber = "245"
+            landmarkName = "onClickBtnUpdate(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Blue_Buddy.AddCoursesViewController.onClickBtnUpdate (__ObjC.UIButton) -&gt; ()"
+                  moduleName = "Blue Buddy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aquatechios/Desktop/Poojashree%20Projects/iPhone/Clients%20Projects/Blue%20Buddy/Jan/Jan%203/Blue%20Buddy/Blue%20Buddy/ViewControllers/AddCoursesViewController.swift"
+                  timestampString = "536658311.74334"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "245"
+                  endingLineNumber = "245"
+                  offsetFromSymbolStart = "13860">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Blue_Buddy.AddCoursesViewController.(onClickBtnUpdate (__ObjC.UIButton) -&gt; ()).(closure #1)"
+                  moduleName = "Blue Buddy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aquatechios/Desktop/Poojashree%20Projects/iPhone/Clients%20Projects/Blue%20Buddy/Jan/Jan%203/Blue%20Buddy/Blue%20Buddy/ViewControllers/AddCoursesViewController.swift"
+                  timestampString = "536658311.745536"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "246"
+                  endingLineNumber = "246"
+                  offsetFromSymbolStart = "41">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/Parser/MarketParser.swift"
+            timestampString = "535964229.46753"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "393"
+            endingLineNumber = "393"
+            landmarkName = "callUpdateCourseService(_:_isFromPic:complete:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Blue_Buddy.MarketParser.callUpdateCourseService (__ObjC.NSDictionary, _isFromPic : Swift.Bool, complete : (Swift.Bool, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "Blue Buddy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aquatechios/Desktop/Poojashree%20Projects/iPhone/Clients%20Projects/Blue%20Buddy/Jan/Jan%203/Blue%20Buddy/Blue%20Buddy/Parser/MarketParser.swift"
+                  timestampString = "536658311.749976"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "393"
+                  endingLineNumber = "393"
+                  offsetFromSymbolStart = "511">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Blue_Buddy.MarketParser.(callUpdateCourseService (__ObjC.NSDictionary, _isFromPic : Swift.Bool, complete : (Swift.Bool, Swift.String) -&gt; ()) -&gt; ()).(closure #2)"
+                  moduleName = "Blue Buddy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aquatechios/Desktop/Poojashree%20Projects/iPhone/Clients%20Projects/Blue%20Buddy/Jan/Jan%203/Blue%20Buddy/Blue%20Buddy/Parser/MarketParser.swift"
+                  timestampString = "536658311.752201"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "394"
+                  endingLineNumber = "394"
+                  offsetFromSymbolStart = "37">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/Parser/MarketParser.swift"
+            timestampString = "535964229.46753"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "379"
+            endingLineNumber = "379"
+            landmarkName = "callUpdateCourseService(_:_isFromPic:complete:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Blue_Buddy.MarketParser.callUpdateCourseService (__ObjC.NSDictionary, _isFromPic : Swift.Bool, complete : (Swift.Bool, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "Blue Buddy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aquatechios/Desktop/Poojashree%20Projects/iPhone/Clients%20Projects/Blue%20Buddy/Jan/Jan%203/Blue%20Buddy/Blue%20Buddy/Parser/MarketParser.swift"
+                  timestampString = "536658311.756703"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "379"
+                  endingLineNumber = "379"
+                  offsetFromSymbolStart = "71">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Blue_Buddy.MarketParser.(callUpdateCourseService (__ObjC.NSDictionary, _isFromPic : Swift.Bool, complete : (Swift.Bool, Swift.String) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "Blue Buddy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aquatechios/Desktop/Poojashree%20Projects/iPhone/Clients%20Projects/Blue%20Buddy/Jan/Jan%203/Blue%20Buddy/Blue%20Buddy/Parser/MarketParser.swift"
+                  timestampString = "536658311.758593"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "380"
+                  endingLineNumber = "380"
+                  offsetFromSymbolStart = "37">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/AddServiceViewController.swift"
+            timestampString = "535986050.049966"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "337"
+            endingLineNumber = "337"
+            landmarkName = "imagePickerControllerDidCancel(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/ServiceDetailsViewController.swift"
+            timestampString = "536050828.110226"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "196"
+            endingLineNumber = "196"
+            landmarkName = "onClickBtnSubmit(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/SearchTripsViewController.swift"
+            timestampString = "536219669.832239"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "183"
+            endingLineNumber = "183"
+            landmarkName = "onClickBtnSelectionHeader(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/SearchTripsViewController.swift"
+            timestampString = "536218900.760242"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "onClickBtnSelectionHeader(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/TripDetailsViewController.swift"
+            timestampString = "536225338.480737"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "onClickBtnSelectionHeader(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/TripDetailsViewController.swift"
+            timestampString = "536225339.480353"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "onClickBtnSelectionHeader(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/ProfileViewController.swift"
+            timestampString = "536570329.172709"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/ProfileViewController.swift"
+            timestampString = "536570329.172709"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/ProfileViewController.swift"
+            timestampString = "536570519.439034"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/ProfileViewController.swift"
+            timestampString = "536570915.749868"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "onClickBtnSelection(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/ViewControllers/ProfileViewController.swift"
+            timestampString = "536570754.57618"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "onClickBtnSelection(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/Parser/BaseParser.swift"
+            timestampString = "536652397.032782"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "callWebServiceWithHeader(serverUrl:postValues:methodName:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blue Buddy/Parser/BaseParser.swift"
+            timestampString = "536652497.688839"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "callWebServiceWithHeader(serverUrl:postValues:methodName:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

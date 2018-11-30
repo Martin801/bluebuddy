@@ -1,0 +1,165 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_weight="8"
+        android:background="#cac9cf"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="45"
+                android:background="@drawable/border1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <EditText
+                            android:id="@+id/edtfrmdate"
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:background="@color/transparent"
+                            android:focusable="false"
+                            android:maxLines="1"
+                            android:hint="From Date"
+                            android:paddingLeft="15dp"
+                            android:text=""
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="45dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/transparent"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/IVdf"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:paddingRight="8dp"
+                            android:src="@drawable/date" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/frm_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="45"
+                android:background="@drawable/border1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <EditText
+                            android:id="@+id/edttodate"
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:layout_gravity="center"
+                            android:background="@color/transparent"
+                            android:focusable="false"
+                            android:maxLines="1"
+                            android:hint="To Date"
+                            android:paddingLeft="15dp"
+                            android:text=""
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="45dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/transparent"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/IVdt"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:paddingRight="8dp"
+                            android:src="@drawable/date" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/to_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent" />
+            </FrameLayout>
+
+<FrameLayout
+    android:layout_width="0dp"
+    android:layout_weight="10"
+    android:background="@drawable/border1"
+    android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/action" />
+            </LinearLayout>
+    <Button
+        android:id="@+id/dateaction"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent" />
+
+</FrameLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</merge>

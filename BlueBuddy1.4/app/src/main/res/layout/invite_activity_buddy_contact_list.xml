@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:gravity="left"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context="com.bluebuddy.activities.EnquiryActivity">
+
+    <include layout="@layout/navbar_blue"></include>
+<!--
+    <include layout="@layout/custom_searchbar"></include>
+-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#F5F5F5"
+        android:weightSum="10">
+        <FrameLayout
+            android:id="@+id/selcetAll"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="3"
+            android:onClick="selcetAll">
+
+
+
+
+        </FrameLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="4">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="26sp"
+                android:textColor="#757575"
+                android:text="Buddies"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="3">
+
+            <Button
+                android:id="@+id/contlstinvt"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="INVITE"
+                android:layout_weight="1"
+                android:background="@drawable/round_corner1"
+                android:textSize="14sp"
+                android:textColor="#ffffff"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#e3e1e1" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="92.5"
+        android:background="@drawable/cmnbg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view_event"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+
+            </android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+
+
+
+    </FrameLayout>
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/custom_footer" />
+
+</LinearLayout>

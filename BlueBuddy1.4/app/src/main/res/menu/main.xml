@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/setting"
+        android:title="@string/app_name"
+        app:showAsAction="never"/>
+
+    <!--<item android:id="@+id/menu_share"
+        android:icon="@drawable/like"
+        app:showAsAction="ifRoom"
+        android:title="@string/app_name" />-->
+
+    <item
+        android:id="@+id/action_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/icon_search"
+        app:showAsAction="always"
+        android:title="search"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/action_settings"/>
+</menu>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <!-- <ViewStub
+        android:id="@+id/create_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ViewStub>-->
+   <!-- <LinearLayout
+        android:id="@+id/create_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+       >
+        <include layout="@layout/create_event_empty_view"
+          ></include>
+    </LinearLayout>-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/cmnbg"
+        android:layout_weight="83">
+        <com.bluebuddy.classes.MyTextView
+            android:id="@+id/txtshid1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="100dp"
+            android:visibility="gone"/>
+    <com.bluebuddy.Utilities.EmptyRecyclerView
+        android:id="@+id/trip_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollIndicators="none"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:visibility="gone">
+
+    </com.bluebuddy.Utilities.EmptyRecyclerView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/trip_recycler_empty_view"
+        android:visibility="gone">
+
+        <include layout="@layout/create_profile_null_event"/>
+
+    </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/plusic"/>
+    </FrameLayout>
+</LinearLayout>

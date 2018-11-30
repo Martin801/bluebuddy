@@ -1,0 +1,49 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="#cac9cf"
+        android:layout_weight="100"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal|center_vertical">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:gravity="center"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:background="@android:drawable/editbox_background">
+
+            <EditText
+                android:id="@+id/srch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" Search"
+                android:textSize="16sp"
+                android:lines="1"
+                android:singleLine="true"
+                android:background="@null"
+                android:gravity="center"
+                android:inputType="textCapSentences"
+                android:imeOptions="actionSearch"
+                android:drawableLeft="@drawable/zoom5"
+                />
+
+            <!--android:drawableRight="@drawable/ic_send" -->
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</merge>

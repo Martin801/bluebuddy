@@ -1,0 +1,230 @@
+<merge xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="3dp"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:foreground="?selectableItemBackground"
+        card_view:cardBackgroundColor="#ffffff"
+        card_view:cardCornerRadius="12dp"
+        card_view:cardElevation="3dp"
+        card_view:contentPadding="10dp">
+        <!--
+    card_view:cardBackgroundColor="#81C784" -->
+        <LinearLayout
+            android:id="@+id/mcec1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="6"
+            android:orientation="vertical">
+
+             <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="80">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Scuba Diving"
+                    android:textColor="#757575"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="20">
+
+                <FrameLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/evdetailround" />
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:textColor="#ffffff"
+                        android:textSize="17sp"
+                        android:text="4" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+             <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginBottom="10dp"
+            android:weightSum="100">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="15">
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/date"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="85">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:text="21 March 2017 - 17 July 2017"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+             <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginBottom="10dp"
+            android:weightSum="100">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="15">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/location"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="85">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:text="Londan Docklands"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Active music and movement session for toddlers and carers."
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/round_corner1"
+                        android:text="VIEW DETAILS"
+                        android:textColor="#ffffff"
+                        android:textSize="17sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/round_corner1"
+                        android:text="EDIT"
+                        android:textColor="#ffffff"
+                        android:textSize="17sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </android.support.v7.widget.CardView>
+</merge>

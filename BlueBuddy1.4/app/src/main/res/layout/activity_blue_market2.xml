@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bluebuddy.activities.BoatCharterAdvFormActivity"
+    android:gravity="left"
+    android:focusableInTouchMode="true"
+    android:weightSum="100">
+
+    <include layout="@layout/navbar_blue"></include>
+
+    <!--<include layout="@layout/custom_searchbar"></include>-->
+
+    <FrameLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/cmnbg"
+        android:layout_weight="92.5">
+
+        <ScrollView
+            android:layout_width="match_parent"
+android:scrollbars="vertical"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="84.5"
+                android:orientation="vertical"
+                android:weightSum="100">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/blue_market_recycler"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </android.support.v7.widget.RecyclerView>
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="bottom|end"
+            android:src="@drawable/plusic"/>
+
+    </FrameLayout>
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/custom_footer" />
+
+</LinearLayout>

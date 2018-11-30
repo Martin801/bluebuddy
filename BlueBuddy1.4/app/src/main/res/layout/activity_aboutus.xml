@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lview1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cmnbg"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context="com.bluebuddy.activities.TermsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/app_icon"
+                    />
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/termshead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="About Us"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#000000"
+                    android:textSize="28sp" />
+            </LinearLayout>
+
+
+            <com.bluebuddy.classes.MyTextView
+                android:id="@+id/termscontent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/termshead"
+                android:layout_marginTop="30dp"
+                android:text="We are a group of people who have loved the ocean since we were born. The idea of the app came from one of us while moving to a new country. He is well known in his home country as a knowledgeable fisherman, spearfisherman, and diving instructor. He never encountered an issue when he wanted to go to the ocean, as he would always have friends to go with.  When he moved to the US, things changed and he found great difficulty in finding fellow divers and spearos. His students, with their new level 1 certifications, would commonly ask, Who can I dive with?. Hence, the birth of this app. We hope to assist in eradicating the idea of diving alone and promote safety through diving with a buddy. In addition, we hope to connect ocean lovers across a multitude of different activities and help foster new friendships." />
+
+            <com.bluebuddy.classes.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/termshead"
+                android:layout_marginTop="20dp"
+                android:text="For any inquiries, please do not hesitate to " />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.bluebuddy.classes.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/termshead"
+                    android:text="contact us at: " />
+
+                <com.bluebuddy.classes.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/termshead"
+                    android:text="admin@thebluebuddy.com"
+                    android:textColor="#2152ae" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_corner1"
+                android:text="Close"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

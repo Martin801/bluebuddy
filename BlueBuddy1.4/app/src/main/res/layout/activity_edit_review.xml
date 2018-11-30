@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:background="@drawable/background">
+
+    <include layout="@layout/navbar_blue"></include>
+
+    <LinearLayout
+        android:id="@+id/linearReviewProduct"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="92.5"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <com.bluebuddy.classes.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="Rate"
+            android:textColor="#FF454545"
+            android:textSize="20sp" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+            android:numStars="5"
+            android:rating="0.0"
+            android:stepSize="1" />
+
+
+        <com.bluebuddy.classes.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:text="Review"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="#FF454545"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left">
+
+            <EditText
+                android:id="@+id/rating_title"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/border"
+                android:gravity="left|top"
+                android:hint="Title"
+                android:inputType="textCapSentences"
+                android:maxLength="50"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/border"
+            android:gravity="left|top"
+            android:hint="Description"
+            android:inputType="textCapSentences|textMultiLine"
+            android:lines="10"
+            android:maxLength="250"
+            android:maxLines="10"
+            android:padding="5dp"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/rate_and_rvw"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/round_corner1"
+            android:gravity="center"
+            android:text="UPDATE"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>
+

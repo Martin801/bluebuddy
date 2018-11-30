@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <item
+        android:id="@+id/menu1"
+        android:title="Invite Buddy" />
+    <item
+        android:id="@+id/menu2"
+        android:title="Buddy"
+        android:visible="false"/>
+    <item
+        android:id="@+id/menu3"
+        android:title="Request Sent"
+        android:visible="false"/>
+    <item
+        android:id="@+id/menu4"
+        android:title="Buddy Rejected"
+        android:visible="false"/>
+
+  <!--  <item
+        android:id="@+id/menu2"
+        android:title="Menu 2" />
+
+    <item
+        android:id="@+id/menu3"
+        android:title="Menu 3" />-->
+
+</menu>

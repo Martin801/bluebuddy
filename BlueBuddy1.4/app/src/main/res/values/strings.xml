@@ -1,0 +1,233 @@
+<resources>
+    <string name="app_name">BlueBuddy</string>
+    <string name="btn_fb">REGISTER WITH FACEBOOK</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_logfb">LOGIN WITH FACEBOOK</string>
+    <string name="btn_mcode">SEND</string>
+    <string name="btn_fpass">SEND</string>
+    <string name="btn_cpnxt">NEXT</string>
+    <string name="title_activity_login">LoginActivity</string>
+    //splash
+
+    <!--login-->
+    <string name="txt_t1">Welcome Back,</string>
+    <string name="txt_t2">Log In to Continue</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_hintmail">Enter your email address</string>
+    <string name="txt_pass">Password</string>
+    <string name="txt_con_pass">Confirm Password</string>
+    <string name="txt_hintpass">Enter your password</string>
+    <string name="txt_hintconpass">Re-enter your password</string>
+    <string name="txt_fp">Forgot Password?</string>
+    <string name="txt_tc"><u>By clicking you have accepted Terms &amp; Condition</u></string>
+    <string name="btn_lg">LOGIN</string>
+    <string name="btn_lgfb">LOGIN WITH FACEBOOK</string>
+    <string name="txt_t3">New User?</string>
+    <string name="txt_t4">&#160;Register</string>
+    <string name="txt_t5">or</string>
+
+    <string name="termhead"><u>Privacy Policy &amp; Terms of Use</u></string>
+
+    //register
+    <string name="txt_t6">Welcome,</string>
+    <string name="txt_t7">Phone Number</string>
+    <string name="txt_t8">Enter your mobile number</string>
+    <string name="txt_t9">Already Registered?</string>
+    <string name="txt_t10">&#160;Log In</string>
+    <string name="btn_reg">REGISTER</string>
+    <string name="btn_regfb">REGISTER WITH FACEBOOK</string>
+    <string name="txt_t11">Create a new account with us</string>
+
+    //forgot password
+    <string name="txt_t17">Forgot Password</string>
+    <string name="txt_t18">Please enter your email to reset your password</string>
+
+    //otp
+    <string name="txt_t19">(Enter the code below in case we fail to detect sms automatically)</string>
+    <string name="txt_t20">Verify your mobile number</string>
+    <string name="txt_t21">Sit back and Relax! While we verify your mobile number </string>
+    <string name="txt_t22">Enter Code</string>
+    <string name="txt_t23">Enter the code</string>
+
+
+    // cp1
+    <string name="txt_t15">Create Your Profile</string>
+    <string name="txt_t16">First name</string>
+    <string name="txt_t12">Enter your first name</string>
+    <string name="txt_t13">Last Name</string>
+    <string name="txt_t14">Enter your last name</string>
+    //social
+    <!--<string name="facebook_app_id">704398243104568</string>-->
+    <string name="facebook_app_id">398673687201258</string>
+    <string name="fb_login_protocol_scheme">fb398673687201258</string>
+    //cp3
+
+    <string name="txt_t24hint"></string>
+    <string name="txt_t25">Certification Details</string>
+    <string name="agency_name">Agency name</string>
+    <string name="txt_t27">Enter the name of your agency from where you have completed your certification i.e. FII ,PADI,NAUI,SSI,AIDA,etc.</string>
+    <string name="txt_t28">Add your certification number</string>
+    <string name="txt_t29hint">Please enter your certification license number</string>
+    <string name="txt_t30">Enter your certification level</string>
+    <string name="txt_t31hint">Enter your certification level i.e. Level 1, Open Water, Instructor, Dive Master, etc.</string>
+    <string name="btn_skp">SKIP</string>
+    //cp2
+    <string name="txt_t39">Choose Your Interest</string>
+
+    //cp4
+    <string name="txt_t33">Tell us something about yourself</string>
+    <string name="txt_t34">Word limit 250 max</string>
+
+    //cp5
+    <string name="txt_t35">Add social links for profile</string>
+    <string name="txt_t36">Click to connect</string>
+    <string name="btn_faceb">FACEBOOK</string>
+    <string name="btn_twt">TWITTER</string>
+    <string name="btn_inst">INSTGRAM</string>
+    <string name="btn_gogl">GOOGLE</string>
+
+    //cp6
+    <string name="txt_t37">Add your website link if any</string>
+    <string name="txt_t38">http://www.example.com</string>
+
+
+    //userprofile
+    <string name="user_name">Ravindra</string>
+    <string name="action_settings">Settings</string>
+    <string name="lorem">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula sem a malesuada rhoncus. Pellentesque ut dolor a dui porttitor porta lacinia non libero.
+        Nunc volutpat arcu quis quam convallis molestie. Etiam ac tristique sem, id commodo justo. Phasellus congue tincidunt lectus, at dignissim ligula maximus eu. Quisque interdum nunc eget tellus bibendum suscipit.
+    </string>
+
+    //createEvent
+    <string name="txt_t40">Trip Name</string>
+    <string name="txt_t41">Please enter the name of your trip</string>
+    <string name="txt_t42">Location</string>
+    <string name="txt_t43">Please enter your trip location</string>
+    <string name="txt_t44">Date</string>
+    <string name="txt_t46">From</string>
+    <string name="txt_t47">To</string>
+    <string name="txt_t48">Activity Type</string>
+    <string name="txt_t49">Trip Description</string>
+    <string name="txt_t50">Please enter your trip Details</string>
+    <string name="btn_cesbmt">SUBMIT</string>
+    <string name="spinner_title">Select</string>
+    <string name="txt_t51">Last Date of Joining</string>
+
+    //Invite Buddies
+    <string name="Activity_prompt">Select Activity Type</string>
+    <string name="txt_t52">Invite Buddies from</string>
+    <string name="btn_contlst">CONTACT LIST</string>
+
+    //categories bluemarket
+    <string name="txt_cbmtitle">Choose Your Categories</string>
+    <string name="btn_cbmcharte">BOAT RENTALS/CHARTERS</string>
+    <string name="btn_cbmcourse">COURSES</string>
+    <string name="btn_cbmproduct">PRODUCTS</string>
+    <string name="txt_or">or</string>
+
+    //Contact information
+    <string name="txt_bcadv">Contact Information</string>
+    <string name="txt_bcadvf1">Name</string>
+    <string name="txt_bcadvf2">Enter Your Name</string>
+    <string name="txt_bcadvf3">Email Address</string>
+    <string name="txt_bcadvf4">Enter your Phone Number</string>
+    <string name="txt_bcadvf5">Website Address</string>
+    <string name="txt_bcadvf6">http://</string>
+    <string name="txt_bcadvf7">Enter your Email Address</string>
+
+    //ENQUIRY
+    <string name="txt_enq1">Please enter your name</string>
+    <string name="txt_enq2">Comments</string>
+    <string name="txt_enq3">Enter your Comment</string>
+
+    //BlueMarket Courses
+    <string name="txt_53">Please enter your name</string>
+    <string name="txt_54">Please enter the Agency name</string>
+    <string name="txt_55">Please enter your certification level</string>
+    <string name="txt_56">Please  <string name="txt_59">Please enter your name</string>enter your name</string>
+    <string name="txt_57">Please enter your name</string>
+    <string name="txt_58">Please enter your name</string>
+    <string name="txt_60">Specify Your Location</string>
+    <string name="txt_61">Select Your State / City / Country</string>
+    <string name="txt_62">Current Location</string>
+    <string name="txt_63">Other Location</string>
+    <string name="txt_64">Nunc volutpat arcu quis quam convallis molestie. Etiam ac tristique sem, id commodo justo. </string>
+    <string name="txt_65">Please enter your event date</string>
+    <string name="txt_66">Martin</string>
+    <string name="txt_67">Wright</string>
+    <string name="txt_68">www.loremipsum.com</string>
+    <string name="txt_69">Scuba Diving Mask</string>
+    <string name="txt_70">Product Description</string>
+    <string name="txt_71">Lorem ipsum dolor sit amet,consectetur asipiscing elit.Praesent Sodales lacinia consectetur.Suspendisse eget tristique tortor\n\nNulla tristique nunc et enim auctor,ut semper tortor semper.Ut fermentum fringilla cursus. \n\nLorem ipsum dolor sit amet,consecteturadipiscing elit.Praesent sodales lacinia consectetur.Suspendisse eget tristique tortor.</string>
+    <string name="txt_72">Scuba Diving</string>
+    <string name="txt_73">Agency Name</string>
+    <string name="txt_74">Agency Website</string>
+    <string name="txt_75">Course Description :</string>
+    <string name="txt_76">Price</string>
+    <string name="txt_77">Lorem ipsum dolor sit amet,consectetur asipiscing elit.Praesent Sodales lacinia consectetur.Suspendisse eget tristique tortor.Nulla tristique nunc et enim auctor,ut semper tortor semper.</string>
+    <string name="txt_78"><u>Upload</u></string>
+    //mapapi
+    <!--<string name="gmap_api">AIzaSyBMeVy9guxJKw0bVesDkkUche_oFSqnqOA</string>-->
+
+    <!--Account -> aquatechdev4@gmail.com Project -> BlueBuddyFB Key -> BlueBuddy Android Key-->
+
+    <string name="gmap_api">AIzaSyAoW6TOf9U_zyvbdjsmFgB5elo-HjEZZSw</string>
+    <string name="firebase_api_key">AIzaSyA8JMnp1cs2P7ekZhJmA6QhpYtRBP4IFtY</string>
+    <string name="firebase_server_key">AAAAmFQzmz4:APA91bGHHt9rZT18X3cfD9c4FHadRluzyo2_slaUpXTK9XYSSWmpqUHA5aQrZMtb_RJv7HPwnIK1dP_9D65pGhBPSqej_42ZV3u3yfL4dScEXJnfNavZ72xpyfFxP4-nKwW64hlOj_6Y</string>
+
+    <string name="label_send">Send</string>
+    <string name="label_error_incorrect_phone">Incorrect phone</string>
+
+    <string name="search_hint">Search...</string>
+    <string name="no_result_found">Results not found</string>
+    <string name="select_country">Select a county</string>
+    <!--chat-->
+    <string name="about">About</string>
+    <string name="login_success">login success</string>
+    <string name="login">LOGIN</string>
+    <string name="Username">Email</string>
+    <string name="Password">Password</string>
+    <string name="forgot_your_password">Forgot your password ?</string>
+    <string name="go">GO</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="next">NEXT</string>
+    <string name="register">REGISTER</string>
+
+    <string name="hint_username">Enter a new username</string>
+    <string name="hint_email_reset">Enter your email</string>
+    <string name="enter_group_name">Enter group name</string>
+
+    <string name="goeswrong">Something goes wrong. Please try again.</string>
+    <string name="phone_number_verification">Phone number verification</string>
+    <string name="enter_your_registered_phone_number">Enter your registered phone number</string>
+    <string name="submit">SUBMIT</string>
+    <string name="loading_title">BlueBuddy</string>
+    <string name="loading_message">Loading,Please wait..</string>
+    <string name="view_all_reviews">View all reviews</string>
+    <string name="hide_all_reviews">Hide all reviews</string>
+    <string name="search_result_for_choose_category">Search result category wise</string>
+    <string name="search_result_for_current_location">Search result current location wise  </string>
+    <string name="search_result_for_other_location">Search result other location wise</string>
+    <string name="gps_off">Please turn on your location service.</string>
+    <string name="enter_location">Enter your Location.</string>
+    <string name="nodatafound">No Data Found.</string>
+    <string name="imgnotvalid">Image not valid choose another.</string>
+    <string name="max_250_character">Max 250   Character</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="price_with_dollar">$%1$s</string>
+
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <string name="default_notification_channel_name" translatable="true">All Notifcation</string>
+
+    <string name="hide_contact_information">Hide my contact information</string>
+
+</resources>

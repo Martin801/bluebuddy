@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lview1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cmnbg"
+    android:gravity="left"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context="com.bluebuddy.activities.CreateProfileActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7">
+
+        <include layout="@layout/navlayout1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="70"
+        android:orientation="vertical"
+        android:weightSum="90">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="11"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Are You Certified ?"
+                android:textColor="#000000"
+                android:textSize="26sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="55dp"
+            android:layout_weight="69"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/border2"
+                android:weightSum="100">
+
+                <FrameLayout
+                    android:id="@+id/fimg1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_weight="100">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:layout_weight="20">
+
+                            <ImageView
+                                android:id="@+id/chk"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                android:background="@drawable/unchecked" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:layout_weight="60">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="Scuba Diver"
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:layout_weight="20">
+
+                            <ImageView
+                                android:layout_width="32dp"
+                                android:layout_height="32dp"
+                                android:layout_marginLeft="15dp"
+                                android:background="@drawable/oxygen_cy1"
+                                android:gravity="center" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/sdid"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent" />
+                </FrameLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border2"
+                android:weightSum="100">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_weight="100">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal|center_vertical"
+
+                            android:layout_weight="20">
+
+                            <ImageView
+                                android:id="@+id/chk1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                android:background="@drawable/unchecked" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal|center_vertical"
+
+                            android:layout_weight="60">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="Freediver"
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:layout_weight="20">
+
+                            <ImageView
+                                android:layout_width="32dp"
+                                android:layout_height="32dp"
+                                android:layout_marginLeft="15dp"
+                                android:background="@drawable/scubaimg"
+                                android:gravity="center" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/fdid"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent" />
+                </FrameLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="69">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/RecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="20">
+
+            <!--  <Button
+                  android:id="@+id/rucbtnid"
+                  android:layout_width="match_parent"
+                  android:layout_height="45dp"
+                  android:background="@drawable/round_corner1"
+                  android:fontFamily="san-francisco"
+                  android:onClick="btn_chsint"
+                  android:text="@string/btn_cpnxt"
+                  android:textColor="#FFFFFF"
+                  android:textSize="16sp" />-->
+            <Button
+                android:id="@+id/rucbtnid"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_corner1"
+                android:text="@string/btn_cpnxt"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+            <!-- android:onClick="btn_chsint"-->
+
+            <Button
+                android:id="@+id/skp"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_corner1"
+                android:text="@string/btn_skp"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

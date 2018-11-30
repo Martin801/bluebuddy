@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context="com.bluebuddy.activities.EnquiryActivity">
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_3sdp"
+        android:layout_marginRight="@dimen/_3sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:clickable="true"
+        android:foreground="?selectableItemBackground"
+        card_view:cardBackgroundColor="#ffffff"
+        card_view:cardCornerRadius="@dimen/_10sdp"
+        card_view:cardElevation="@dimen/_3sdp"
+        card_view:contentPadding="@dimen/_10sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/evcard1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="70"
+                    android:orientation="vertical"
+                    android:weightSum="100">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_weight="40">
+
+                        <TextView
+                            android:id="@+id/txtevttitleid"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Scuba Diving"
+                            android:textSize="@dimen/_14sdp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_weight="30"
+                        android:weightSum="100">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="25"
+                            android:paddingLeft="@dimen/_2sdp">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="30"
+                                android:background="@drawable/ic_calendarsvg" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/_10sdp">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/txtevtdatefromid"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="26"
+                                    android:text="21 March 2017"
+                                    android:textSize="@dimen/_11sdp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_weight="30"
+                        android:weightSum="100">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="10">
+
+                            <ImageView
+                                android:id="@+id/imageView3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="10"
+                                android:background="@drawable/ic_placeholder_grey"
+                                android:scaleType="fitXY" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:layout_weight="92">
+
+                            <TextView
+                                android:id="@+id/txtevtlocid"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="70"
+                                android:text="Londan Docklands"
+                                android:textSize="@dimen/_11sdp" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_weight="20"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:weightSum="100">
+
+                    <FrameLayout
+                        android:id="@+id/frameBuddies"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_30sdp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/circle_bm" />
+
+                        <TextView
+                            android:id="@+id/bmcprice"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="0"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/_11sdp" />
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent" />
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/tripOptions"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:background="@color/transparent"
+                    android:paddingLeft="@dimen/_15sdp"
+                    android:text="&#8942;"
+                    android:textAppearance="?android:textAppearanceLarge" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="#000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/txtevtdescid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="Active music and movement session for toddlers and carers."
+                        android:textSize="@dimen/_11sdp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <Button
+                            android:id="@+id/evtdetail"
+                            style="@style/my_event_btn"
+                            android:layout_width="match_parent"
+                            android:layout_marginRight="@dimen/_10sdp"
+                            android:onClick="Vdetails"
+                            android:text="VIEW DETAILS" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/edtevt"
+                            style="@style/my_event_btn"
+                            android:layout_width="match_parent"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:text="EDIT" />
+
+                        <Button
+                            android:id="@+id/iminn"
+                            style="@style/my_event_btn"
+                            android:layout_width="match_parent"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:text="I AM IN"
+                            android:visibility="gone" />
+
+                        <Button
+                            android:id="@+id/btnRequestSent"
+                            style="@style/my_request_sent_btn"
+                            android:layout_width="match_parent"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:text="Request Sent"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

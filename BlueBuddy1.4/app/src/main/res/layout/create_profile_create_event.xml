@@ -1,0 +1,70 @@
+<merge xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:foreground="?selectableItemBackground"
+        card_view:cardBackgroundColor="#000"
+        card_view:cardCornerRadius="12dp"
+        card_view:cardElevation="3dp"
+        card_view:contentPadding="10dp">
+        <!--
+    card_view:cardBackgroundColor="#81C784" -->
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="100">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="10dp"
+                android:weightSum="10"
+                android:layout_weight="50">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="4">
+                    <Button
+                        android:id="@+id/Buddyupid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="btnBup"
+                        android:background="@drawable/round_corner1"
+                        android:textSize="16sp"
+                        android:text="BUDDY UP"
+                        android:textColor="#ffffff" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"></LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</merge>

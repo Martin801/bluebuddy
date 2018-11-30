@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:gravity="left"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context="com.bluebuddy.activities.EnquiryActivity">
+
+    <include layout="@layout/paynavbar_blue"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="92"
+        android:background="@drawable/cmnbg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_weight="92"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_horizontal"
+                android:orientation="vertical">
+
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:clickable="true"
+                    android:foreground="?selectableItemBackground"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    card_view:cardBackgroundColor="#ffffff"
+                    card_view:cardCornerRadius="12dp"
+                    card_view:cardElevation="2dp"
+                    card_view:contentPadding="2dp">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="28dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="16dp"
+                            android:background="@drawable/checked" />
+
+                        <ImageView
+                            android:layout_width="240dp"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/ppylg" />
+
+                        <Button
+                            android:id="@+id/payplid"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/transparent" />
+                    </FrameLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginTop="40dp"
+                android:layout_weight="15"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/onBuyPressed2"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:onClick="onBuyPressed"
+                    android:background="@drawable/round_corner1"
+                    android:text="PROCEED"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/custom_footer" />
+
+</LinearLayout>

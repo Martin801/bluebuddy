@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bluebuddy.activities.EnquiryActivity"
+    android:gravity="left"
+    android:focusableInTouchMode="true"
+    android:weightSum="100">
+
+    <include layout="@layout/navbar_blue"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/cmnbg"
+        android:layout_weight="92">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_weight="92"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="left|center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/idtxt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_bcadvf1"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/bcadname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/txt_enq1"
+                    android:inputType="text"
+                    android:lines="1"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="10dp"
+                    android:background="#757575" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="left|center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/idtxt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_enq2"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/cp3cnum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/txt_enq3"
+                    android:inputType="text"
+                    android:maxLength="10"
+                    android:lines="1"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="10dp"
+                    android:background="#757575" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginTop="40dp"
+                android:layout_weight="15"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:id="@+id/enqpopup"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:onClick="boatcadv"
+                    android:background="@drawable/round_corner1"
+                    android:text="@string/btn_fpass"
+                    android:textColor="#FFFFFF"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/custom_footer" />
+
+</LinearLayout>

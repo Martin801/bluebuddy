@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:gravity="left"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context="com.bluebuddy.activities.CreateEventActivity">
+
+    <include layout="@layout/navbar_blue"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="92.5"
+        android:background="@drawable/cmnbg"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="92.5"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <FrameLayout
+                android:id="@+id/frameBuddies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:id="@+id/edt_profile_view"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    app:layout_behavior="com.example.user.bluebuddy.activities.ImageBehavior" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circuler_linearlayout"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/edt"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_add_white" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/edt_imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:onClick="scndpic" />
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="left|center_horizontal"
+                android:orientation="vertical">
+
+                <com.bluebuddy.classes.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_t16"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/edt_frstnm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/transparent"
+                    android:hint="enter your first name"
+                    android:inputType="textCapSentences"
+                    android:lines="1"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="7dp"
+                    android:background="#757575" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:gravity="left|center_horizontal"
+                android:orientation="vertical">
+
+                <com.bluebuddy.classes.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_t13"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/edt_lastname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/transparent"
+                    android:hint="enter your last name"
+                    android:inputType="textCapSentences"
+                    android:lines="1"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="10dp"
+                    android:background="#757575" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:gravity="center_horizontal|center_vertical|left"
+                android:orientation="vertical"
+                >
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/txtv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="@string/txt_t33"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/_13sdp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/edt_abt"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/border_with_solid_grey"
+                    android:gravity="start"
+                    android:hint="enter something related yourself"
+                    android:inputType="textCapSentences|textMultiLine"
+                    android:maxLength="250"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    android:lines="18"
+                    android:textSize="16sp" />
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_height="wrap_content">
+                    <com.bluebuddy.classes.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:text="Max 250 Character"/>
+                    <View
+                        android:layout_width="125dp"
+                        android:layout_height="1px"
+                        android:background="#757575"
+                        android:layout_marginTop="16dp"
+                        />
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="45dp"
+                android:gravity="center_horizontal|center_vertical|left">
+
+                <com.bluebuddy.classes.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idtxt1"
+                    android:textAlignment="center"
+                    android:layout_gravity="start"
+                    android:hint="@string/txt_t37"
+                    android:textSize="@dimen/_13sdp"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:gravity="left">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edt_website"
+                    android:lines="1"
+                    android:inputType="textUri"
+                    android:textSize="16sp"
+                    android:hint="@string/txt_t38"
+                    android:background="@android:color/transparent"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="10dp"
+                    android:background="#757575" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:orientation="vertical">
+
+                <com.bluebuddy.classes.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_t42"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/edt_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="10dp"
+                    android:singleLine="true"
+                    android:background="@android:color/transparent"
+                    android:ems="10"
+                    android:hint="enter your location">
+
+                </AutoCompleteTextView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="10dp"
+                    android:background="#757575" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:gravity="left|center_horizontal"
+                android:orientation="vertical">
+
+                <com.bluebuddy.classes.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_t35"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+<FrameLayout
+    android:id="@+id/frmfb"
+    android:layout_width="wrap_content"
+    android:layout_weight="5"
+    android:background="@color/transparent"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/slfbid"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_weight="5"
+        android:background="@drawable/border1"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/btn_faceb"
+        android:textColor="#757575"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+</FrameLayout>
+
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:background="@color/transparent"
+    android:layout_weight="5"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/slinstid"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="35dp"
+        android:layout_weight="5"
+        android:background="@drawable/border1"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/btn_inst"
+        android:textColor="#757575"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+</FrameLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:background="@color/transparent"
+                        android:layout_weight="5"
+                        android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/sltwtid"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_weight="5"
+                        android:background="@drawable/border1"
+                        android:fontFamily="sans-serif-thin"
+                        android:text="@string/btn_twt"
+                        android:textColor="#757575"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+                    </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:background="@color/transparent"
+                        android:layout_weight="5"
+                        android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/slglid"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_weight="5"
+                        android:background="@drawable/border1"
+                        android:fontFamily="sans-serif-thin"
+                        android:text="YOUTUBE"
+                        android:textColor="#757575"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+                    </FrameLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="40dp"
+                android:layout_weight="15"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_edtprofile"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_corner1"
+                    android:onClick="crevent"
+                    android:text="UPDATE"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/custom_footer" />
+
+</LinearLayout>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:gravity="left"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context="com.bluebuddy.activities.EnquiryActivity">
+
+    <include layout="@layout/navbar_blue"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="100"
+                    android:background="#757575"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight="100"
+                        android:background="@android:drawable/editbox_background"
+                        android:gravity="center">
+
+                        <EditText
+                            android:id="@+id/srch"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:drawableLeft="@drawable/zoom"
+                            android:gravity="center"
+                            android:hint=" Search"
+                            android:imeOptions="actionSearch"
+                            android:inputType="textCapSentences"
+                            android:singleLine="true"
+                            android:textSize="19sp" />
+
+                        <!--<android.support.v7.widget.SearchView-->
+                        <!--android:id="@+id/srch"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:hint=" Search"-->
+                        <!--android:textSize="19sp"-->
+                        <!--android:background="@null"-->
+                        <!--android:gravity="center"-->
+                        <!--android:inputType="textCapSentences"-->
+                        <!--android:singleLine="true"-->
+                        <!--android:imeOptions="actionSearch"-->
+                        <!--/>-->
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--
+    </LinearLayout>
+    -->
+    <!--<include layout="@layout/custom_searchbar"></include>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="92.5"
+        android:background="@drawable/cmnbg"
+        android:orientation="vertical">
+
+        <!--<android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#ffffff"
+                ></android.support.design.widget.TabLayout>
+        </android.support.design.widget.AppBarLayout>-->
+
+        <!-- <android.support.v4.view.ViewPager
+             android:id="@+id/viewPager"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+             </android.support.v4.view.ViewPager>-->
+
+        <!-- <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="20dp"
+             android:layout_marginRight="20dp"
+             android:layout_weight="77"
+             android:orientation="vertical"
+             android:weightSum="100">
+
+             <android.support.v7.widget.RecyclerView
+                 android:id="@+id/recycler_view_pplsrch"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:scrollbars="none">
+
+             </android.support.v7.widget.RecyclerView>
+
+         </LinearLayout>-->
+        <com.bluebuddy.classes.MyTextView
+            android:id="@+id/txtshid1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:gravity="center"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_pplsrch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:scrollbars="none">
+
+
+            <!-- <ScrollView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent">
+
+                       <TextView
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:text="@string/lorem"/>
+
+
+                   <include layout="@layout/people_search_list"></include>
+
+               </ScrollView>-->
+
+        </android.support.v7.widget.RecyclerView>
+
+        <!--
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="84"
+                android:orientation="vertical"
+                android:weightSum="100">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <include layout="@layout/people_search_list"></include>
+
+                </ScrollView>
+
+            </LinearLayout>
+        -->
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/custom_footer" />
+
+</LinearLayout>

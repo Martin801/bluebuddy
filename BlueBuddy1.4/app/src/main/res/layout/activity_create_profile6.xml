@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cmnbg"
+    android:gravity="left"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context="com.bluebuddy.activities.CreateProfileActivity6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7">
+
+        <include layout="@layout/navlayout1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="93"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:gravity="center_horizontal|center_vertical|left"
+            android:orientation="vertical"
+            android:paddingTop="24dp">
+
+            <TextView
+                android:id="@+id/idtxt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="@string/txt_t37"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="60"
+            android:gravity="left"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/weblnkid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="@string/txt_t38"
+                android:inputType="textUri"
+                android:lines="1"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="10dp"
+                android:background="#757575" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="35dp"
+            android:layout_weight="35"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/weblnknxtid"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_corner1"
+                android:onClick="cp6nxt"
+                android:text="@string/btn_cpnxt"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+
+            <Button
+                android:id="@+id/weblnkskpid"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_corner1"
+                android:onClick="cp6skp"
+                android:text="@string/btn_skp"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

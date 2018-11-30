@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card_view"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="3dp"
+    android:layout_marginTop="8dp"
+    card_view:cardBackgroundColor="#ffffff"
+    card_view:cardCornerRadius="12dp"
+    card_view:cardElevation="3dp"
+    card_view:contentPadding="10dp"
+    android:layout_marginBottom="20dp"
+    android:foreground="?selectableItemBackground"
+    android:clickable="true" >
+<!--
+    card_view:cardBackgroundColor="#81C784" -->
+
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/evcard1"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="75"
+                android:orientation="vertical"
+                android:weightSum="100">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="40">
+
+                    <TextView
+                        android:id="@+id/txtevttitleid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text="Scuba Diving"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="30"
+                    android:layout_marginTop="5dp"
+                    android:weightSum="100">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:paddingLeft="2dp"
+                        android:layout_weight="25">
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:background="@drawable/date"
+                            android:layout_weight="30"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_gravity="center"
+                        >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:id="@+id/txtevtdatefromid"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="26"
+        android:text="21 March 2017"
+        android:textSize="14sp" />
+</LinearLayout>
+<!--
+
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+android:layout_gravity="center"
+    android:layout_weight="1">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:text="-"
+        android:layout_weight="3"/>
+</LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4">
+                            <TextView
+                                android:id="@+id/txtevtdattid"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:textSize="14sp"
+                                android:paddingLeft="5dp"
+                                android:text="18 July 2017"
+                                android:paddingRight="4dp"
+                                android:layout_weight="36"/>
+                        </LinearLayout>
+-->
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="30"
+                    android:layout_marginTop="5dp"
+                    android:weightSum="100">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10">
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="10"
+                            android:scaleType="fitXY"
+                            android:background="@drawable/loc5" />
+                    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_weight="92">
+    <TextView
+        android:id="@+id/txtevtlocid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:layout_gravity="center"
+        android:layout_weight="70"
+        android:textSize="14sp"
+        android:text="Londan Docklands"/>
+</LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="25"
+                    android:orientation="vertical"
+                    android:layout_gravity="top"
+                    android:weightSum="100">
+                    <!--
+                <ImageView
+                    android:id="@+id/txtupicid"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_bm"
+                    />
+                    -->
+                    <FrameLayout
+                        android:id="@+id/frameBuddies"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/circle_bm_grey" />
+
+                        <TextView
+                            android:id="@+id/bmcprice"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="0"
+                            android:textColor="#ffffff"
+                            android:textSize="13sp" />
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent" />
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="110dp">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="15dp"
+        android:background="#000000"
+        />
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp">
+
+        <TextView
+            android:id="@+id/txtevtdescid"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Active music and movement session for toddlers and carers."/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

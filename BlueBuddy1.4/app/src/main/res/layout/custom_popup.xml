@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:layout_marginBottom="@dimen/_10sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/_5sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtv1"
+                android:text="@string/phone_number_verification"
+                android:textSize="@dimen/_13sdp"
+                android:textColor="#000000"/>
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="left|center_horizontal">
+
+           <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtRecoverCode"
+                android:hint="@string/enter_your_registered_phone_number"
+                 android:inputType="phone"
+                android:textSize="@dimen/_11sdp"
+               android:maxLength="15"
+                android:lines="1"
+                android:paddingLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@android:color/transparent"/>
+
+            <View android:layout_height="@dimen/_1sdp"
+                android:layout_width="match_parent"
+                android:background="#757575"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_alignParentBottom="true"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/btn_recover_otp"
+                android:background="@drawable/round_corner1"
+                android:textSize="@dimen/_16sdp"
+                android:text="@string/submit"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

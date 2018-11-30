@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:gravity="left"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context="com.bluebuddy.activities.EnquiryActivity">
+
+    <include layout="@layout/navbar_blue"></include>
+<!--
+    <include layout="@layout/custom_searchbar"></include>
+-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#e3e1e1" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="92.5"
+        android:background="@drawable/cmnbg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view_event"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+
+            </android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+
+
+
+    </FrameLayout>
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/custom_footer" />
+
+</LinearLayout>

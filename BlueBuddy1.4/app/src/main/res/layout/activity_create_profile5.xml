@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/cmnbg"
+    android:layout_height="match_parent"
+    tools:context="com.bluebuddy.activities.CreateProfileActivity4"
+    android:gravity="left"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7">
+
+        <include layout="@layout/navlayout1"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scrollbars="none"
+        android:layout_weight="93">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="91.5"
+        android:orientation="vertical"
+        android:weightSum="100"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <LinearLayout
+            android:layout_weight="20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="24dp"
+            android:gravity="center_horizontal|center_vertical|left">
+
+            <com.bluebuddy.classes.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/idtxt1"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:text="@string/txt_t35"
+                android:textSize="24sp"
+                android:textColor="#000000"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/idtxt2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:text="@string/txt_t36"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"
+            android:gravity="left">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="25dp"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/slfbid"
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:textSize="17sp"
+        android:textColor="#757575"
+        android:background="@drawable/border1"
+        android:fontFamily="sans-serif-thin"
+        android:textStyle="bold"
+        android:text="@string/btn_faceb"/>
+</LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:gravity="center">
+                <Button
+                    android:id="@+id/sltwtid"
+                    android:layout_width="160dp"
+                    android:layout_height="45dp"
+                    android:textSize="17sp"
+                    android:textColor="#757575"
+                    android:fontFamily="sans-serif-thin"
+                    android:textStyle="bold"
+                    android:background="@drawable/border1"
+                    android:text="@string/btn_twt"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:gravity="center">
+                <Button
+                    android:id="@+id/slinstid"
+                    android:layout_width="160dp"
+                    android:layout_height="45dp"
+                    android:textSize="17sp"
+                    android:textColor="#757575"
+                    android:fontFamily="sans-serif-thin"
+                    android:textStyle="bold"
+                    android:text="@string/btn_inst"
+                    android:background="@drawable/border1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/slglid"
+                    android:layout_width="160dp"
+                    android:layout_height="45dp"
+                    android:textColor="#757575"
+                    android:background="@drawable/border1"
+                    android:text="YOUTUBE"
+                    android:fontFamily="sans-serif-thin"
+                    android:textStyle="bold"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_weight="33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="65dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_sociallinkid"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/round_corner1"
+                android:text="@string/btn_cpnxt"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

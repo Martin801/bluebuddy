@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lview1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cmnbg"
+    android:focusableInTouchMode="true"
+    android:gravity="left"
+    android:orientation="vertical"
+    tools:context="com.bluebuddy.activities.LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="24dp">
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/txtv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_t1"
+                    android:textColor="#000000"
+                    android:textSize="26sp"
+                    android:typeface="sans" />
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/txtv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="@string/txt_t2"
+                    android:textColor="#757575"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+                android:gravity="left|center_horizontal"
+                android:orientation="vertical">
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/idtxt1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_email"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/id_mail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/txt_hintmail"
+                    android:inputType="textEmailAddress"
+                    android:lines="1"
+                    android:paddingLeft="5dp"
+                    android:textColor="#757575"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="10dp"
+                    android:background="#757575" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:gravity="left|center_horizontal"
+                android:orientation="vertical">
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/idtxt2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_pass"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/id_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/txt_hintpass"
+                    android:inputType="textPassword"
+                    android:lines="1"
+                    android:paddingLeft="5dp"
+                    android:textColor="#757575"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="10dp"
+                    android:background="#757575" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp">
+
+                <com.bluebuddy.classes.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:onClick="fPasstxt"
+                    android:text="@string/txt_fp"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:onClick="lgcbox">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7">
+
+                    <ImageButton
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:id="@+id/lgcbx"
+                        android:layout_weight="2"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/unchecked2" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="93"
+                    android:gravity="center"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_tc"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="16dp"
+                android:layout_weight="10"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center">
+
+                        <ImageButton
+                            android:id="@+id/rgcbx"
+                            android:layout_width="18dp"
+                            android:layout_height="18dp"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:layout_weight="7"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/unchecked2" />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btnTerms"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:gravity="center"
+                        android:onClick="rgcbxbtn" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="90">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="top"
+                        android:gravity="center"
+                        android:paddingLeft="10dp">
+
+                        <com.bluebuddy.classes.MyTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:autoLink="all"
+                            android:text="@string/txt_tc"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btnTermsPage"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:onClick="rgcbxbtn" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp">
+
+                <Button
+                    android:id="@+id/id_lgbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/round_corner1"
+                    android:onClick="lgbtn"
+                    android:text="@string/btn_lg"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <com.bluebuddy.classes.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/txt_t5"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.facebook.login.widget.LoginButton
+                        android:id="@+id/loginButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <Button
+                        android:id="@+id/id_lgfb"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:background="@drawable/round_corner1"
+                        android:onClick="fblgbtn"
+                        android:text="@string/btn_lgfb"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_t3"
+                    android:textSize="16sp" />
+
+                <com.bluebuddy.classes.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="regtxt"
+                    android:text="@string/txt_t4"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

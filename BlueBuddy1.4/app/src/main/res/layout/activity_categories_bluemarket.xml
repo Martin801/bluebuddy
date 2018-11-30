@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bluebuddy.activities.CreateProfileActivity3"
+    android:gravity="left"
+    android:focusableInTouchMode="true"
+
+    android:weightSum="100">
+
+    <include layout="@layout/navbar_blue"></include>
+    <!--<include layout="@layout/navbar_blue1"></include>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/cmnbg"
+        android:layout_weight="92.5">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="92.5"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/idtxt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+<!--
+                    android:layout_marginTop="35dp"
+
+ android:text="@string/txt_cbmtitle"
+-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginTop="40dp"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/bmcharterid"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_corner1"
+                    android:onClick="cp3nxt"
+                    android:text="@string/btn_cbmcharte"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17sp" />
+
+                <com.bluebuddy.classes.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:textSize="17sp"
+                    android:textColor="#000000"
+                    />
+                <!--android:text="@string/txt_or"-->
+
+                <Button
+                    android:id="@+id/bmcourseid"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/round_corner1"
+                    android:onClick="cp3nxt"
+                    android:text="@string/btn_cbmcourse"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17sp" />
+
+                <com.bluebuddy.classes.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:textSize="17sp"
+                    android:textColor="#000000"
+                   />
+                <!-- android:text="@string/txt_or"-->
+
+                <Button
+                    android:id="@+id/bmproductid"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/round_corner1"
+                    android:layout_marginTop="15dp"
+                    android:onClick="cp3nxt"
+                    android:text="@string/btn_cbmproduct"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17sp" />
+                <com.bluebuddy.classes.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="17sp"
+                    android:textColor="#000000"
+                    />
+<!--android:text="@string/txt_or"-->
+                <Button
+                    android:id="@+id/bmservicesid"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_corner1"
+                    android:layout_marginTop="15dp"
+                    android:text="Services"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/custom_footer" />
+
+</LinearLayout>

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:gravity="left"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context="com.bluebuddy.activities.BoatCharterAdvFormActivity">
+
+    <include layout="@layout/navbar_blue_nobell"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="92.5"
+        android:background="@drawable/cmnbg"
+        android:scrollbars="none">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="92.5"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <FrameLayout
+                android:id="@+id/frameBuddies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:id="@+id/edt_profile_view"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    app:layout_behavior="com.example.user.bluebuddy.activities.ImageBehavior" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circuler_linearlayout"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/edt"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_add_white" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/edt_imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:onClick="scndpic" />
+
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:gravity="left|center_horizontal"
+                android:orientation="vertical">
+<!--                    android:id="@+id/idtxt3"
+-->
+                <com.bluebuddy.classes.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Service Type"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/service_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/transparent"
+                    android:hint="Name your service"
+                    android:inputType="textCapSentences"
+                    android:lines="1"
+                    android:textSize="15sp" />
+
+                <!-- <TextView
+                    android:id="@+id/servicetype"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Name your service"
+                    android:textColor="#FF767676"
+                    android:textSize="14sp" />-->
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="5dp"
+                    android:background="#757575" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="23dp"
+                android:gravity="left|center_horizontal"
+                android:orientation="vertical">
+<!--                    android:id="@+id/idtxt5"
+-->
+                <com.bluebuddy.classes.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Location"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@android:color/transparent"
+                    android:ems="10"
+                    android:hint="Enter your location"
+                    android:lines="1"
+                    android:textSize="15sp">
+
+                   <!-- <requestFocus />-->
+                </AutoCompleteTextView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="5dp"
+                    android:background="#757575" />
+                <!--
+                <EditText
+                    android:id="@+id/chrtloc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@android:color/transparent"
+                    android:hint="Enter your location"
+                    android:inputType="text"
+                    android:lines="1"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="5dp"
+                    android:background="#757575" />-->
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="23dp"
+                android:gravity="left|center_horizontal"
+                android:orientation="vertical">
+                <!--
+                                    android:id="@+id/idtxt4"
+                -->
+
+                <com.bluebuddy.classes.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Description"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/srvcedesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/border_with_solid_grey"
+                    android:gravity="start"
+                    android:hint="Provide more details about your service."
+                    android:inputType="textMultiLine|textCapSentences"
+                    android:lines="18"
+                    android:maxLength="500"
+                    android:overScrollMode="always"
+                    android:paddingLeft="18dp"
+                    android:paddingRight="18dp"
+                    android:paddingTop="10dp"
+                    android:scrollbarAlwaysDrawVerticalTrack="true"
+                    android:scrollbarStyle="insideInset"
+                    android:scrollbars="vertical"
+                    android:textSize="12sp" />
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:text="Max 250 Character"/>
+                    <View
+                        android:layout_width="125dp"
+                        android:layout_height="1px"
+                        android:background="#757575"
+                        android:layout_marginTop="16dp"
+                        />
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="left|center_horizontal"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <CheckBox
+                    android:id="@+id/cb_hideContactDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hide_contact_information" />
+
+            </LinearLayout>
+
+<!--
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="23dp"
+                android:gravity="left|center_horizontal"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:text="Upload Your Picture"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/upload_pic"
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/round_corner5_solid"
+                    android:drawableRight="@drawable/ic_add_whitesmall"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="20dp"
+                    android:text="@string/txt_78"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="19sp" />
+            </LinearLayout>
+-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="15"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnupdt"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/round_corner1"
+                    android:gravity="center"
+                    android:text="UPDATE"
+                    android:layout_weight="1"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17sp" />
+
+                <Button
+                    android:id="@+id/btndlt"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/round_corner1"
+                    android:gravity="center"
+                    android:text="DELETE"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/custom_footer" />
+
+</LinearLayout>

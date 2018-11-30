@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#022042</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorGray">#bdbdbd</color>
+
+    <color name="colorPrimaryDark">#083678</color>
+    <color name="colorAccent">#1A237E</color>
+    <color name="colorPrimary1">#FF0B377A</color>
+    <color name="indexer_bar_bg_color">#40000000</color>
+    <color name="indexer_bar_selected_color">#3399ff</color>
+    <color name="letter_bg_color">#1C86EE</color>
+    <color name="transparent">#00000000</color>
+    <color name="rating_star">#FF02ABEB</color>
+
+    <color name="text_image_background">#1d53a9</color>
+<!--chat-->
+    <color name="colorIndivateTab">#FFFFFF</color>
+    <color name="colorCardView">#f7f7f7</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_500">#a4a4a4</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_800">#212121</color>
+
+    <color name="defaultContentColor">@android:color/black</color>
+    <color name="defaultBorderFlagColor">@android:color/transparent</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#212121</color>
+</resources>

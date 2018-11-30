@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view_bm"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="3dp"
+    android:layout_marginTop="8dp"
+    android:clickable="true"
+    android:foreground="?selectableItemBackground"
+    card_view:cardBackgroundColor="#ffffff"
+    card_view:cardCornerRadius="12dp"
+    card_view:cardElevation="3dp"
+    card_view:contentPadding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            card_view:cardCornerRadius="0dp"
+            card_view:cardElevation="0dp"
+            card_view:cardBackgroundColor="@color/transparent"
+            android:outlineProvider="none"
+            android:innerRadius="0dp"
+            android:shape="rectangle"
+            android:layout_weight="30">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:elevation="12dp"
+            android:id="@+id/view2"
+            android:layout_weight="30"
+            app:cardCornerRadius="5dp"
+            android:innerRadius="0dp"
+            android:shape="rectangle"
+            android:thicknessRatio="1.9">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:layout_weight="30">
+            <ImageView
+                android:id="@+id/bmcpic"
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:background="@drawable/rect_img"
+                />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="30">
+
+            <ImageView
+                android:id="@+id/feattag"
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:visibility="gone"
+                android:background="@drawable/featuretag1" />
+
+
+        </LinearLayout>
+</FrameLayout>
+        </android.support.v7.widget.CardView>
+        </android.support.v7.widget.CardView>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="70"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="80">
+
+                    <TextView
+                        android:id="@+id/bmcname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:singleLine="true"
+                        android:text="  "
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20">
+                    <!--
+                <ImageView
+                    android:id="@+id/txtupicid"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_bm"
+                    />
+                    -->
+                    <FrameLayout
+                        android:id="@+id/frameBuddies"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/circle_bm" />
+
+                        <TextView
+                            android:id="@+id/bmcprice"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="0"
+                            android:textColor="#ffffff"
+                            android:textSize="13sp" />
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent" />
+
+                    </FrameLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/bmcloc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:maxLines="1"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Posted by : "
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/bmcposted"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" " />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:weightSum="10">
+
+                    <LinearLayout
+                        android:id="@+id/linearCourseChat"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4.75"
+                        android:visibility="gone">
+
+                        <Button
+                            android:id="@+id/chatBtn"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="@drawable/round_corner1"
+                            android:text="Chat"
+                            android:textColor="#ffffff"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearCourseEdit"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4.75"
+                        android:visibility="gone">
+
+                        <Button
+                            android:id="@+id/bmcedt"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="@drawable/round_corner1"
+                            android:text="Edit"
+                            android:textColor="#ffffff"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".5">
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4.75">
+
+                        <Button
+                            android:id="@+id/bmcdet"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="@drawable/round_corner1"
+                            android:text="details"
+                            android:textColor="#ffffff"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+                    android:id="@+id/report_flag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:background="@drawable/ic_flag" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

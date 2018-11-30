@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:gravity="left"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:background="#beede7"
+    tools:context="com.bluebuddy.activities.EnquiryActivity">
+
+    <include layout="@layout/navbar_blue_chat"></include>
+
+    <!--<include layout="@layout/custom_datepicker"></include>-->
+
+    <!-- <include layout="@layout/custom_searchbar"></include>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="92.5"
+        android:orientation="vertical"
+        android:background="@drawable/cmnbg">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerChat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+   <!-- <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_200"
+       />-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="9"
+            android:background="#beede7">
+
+            <EditText
+                android:id="@+id/editWriteMessage"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="8"
+                android:layout_marginStart="1dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginEnd="2dp"
+                android:background="@drawable/round_cornerchat"
+                android:drawablePadding="20dp"
+                android:scrollbars="vertical"
+                android:inputType="textLongMessage|textCapSentences|textMultiLine"
+                android:maxLines="50"
+                android:paddingRight="7dp"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:padding="15dp"
+                android:hint="Type a message"
+                android:textColorHint="#2e6eb7"
+                android:textSize="15sp"
+                android:maxLength="2000"
+                android:textColor="#225d9f"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="1dp"
+                android:layout_marginLeft="1dp" />
+
+            <ImageButton
+                android:id="@+id/btnSend"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/circle_bm_mediumchat"
+                android:padding="10dp"
+                android:layout_marginBottom="1.8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_send3"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true" />
+
+        </LinearLayout>
+
+       <!-- <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey_200"
+            android:layout_above="@id/btnSend"
+            android:layout_marginBottom="1dp"/>-->
+
+    </LinearLayout>
+
+
+</LinearLayout>

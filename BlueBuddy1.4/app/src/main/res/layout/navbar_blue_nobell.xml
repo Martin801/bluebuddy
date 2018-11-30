@@ -1,0 +1,61 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8.5"
+        android:background="#022042"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:layout_gravity="center_horizontal|center_vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imgNotification2"
+                    android:layout_width="24dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_height="24dp"
+                    android:src="@drawable/bckarw" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="60"
+            android:gravity="center_horizontal|center_vertical">
+
+            <com.bluebuddy.classes.MyTextView
+                android:layout_width="wrap_content"
+                android:id="@+id/navtxt"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textSize="17sp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:gravity="center_horizontal|center_vertical">
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</merge>

@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lview1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cmnbg"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context="com.bluebuddy.activities.TermsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.bluebuddy.classes.MyTextView
+                android:id="@+id/termshead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:text="@string/termhead"
+                android:textColor="#000000"
+                android:textSize="22sp" />
+
+            <com.bluebuddy.classes.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Privacy Policy"
+                android:textColor="#262525"
+                android:textSize="20sp" />
+
+            <com.bluebuddy.classes.MyTextView
+                android:id="@+id/termscontent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/termshead"
+                android:layout_marginTop="10dp"
+                android:text="This Privacy Policy sets out how Blue Buddy (“us” or “we”), a company duly incorporated and organized under the laws of Kuwait, collect, use and share information that we obtain as a result of your use of the Blue Buddy application, http://www.bluebuddy.com, our other applications and tools, and any related services (collectively the Services). By using or accessing the Services, you confirm that you have received this Privacy Policy and that you consent to the use of your information as explained in this Privacy Policy. If you do not consent, please do not use the Services." />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/termscontenth1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/termshead"
+                    android:layout_marginTop="20dp"
+                    android:text="1" />
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/termscontenth1.1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/termshead"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="INFORMATION COLLECTED"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <com.bluebuddy.classes.MyTextView
+                android:id="@+id/termscontent1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/termshead"
+                android:layout_marginTop="20dp"
+                android:text="We may collect and store information about you. The type of personal information we may collect includes name, username, password, e-mail, phone number, address, gender, location data, payment information, as well as any other user generated content that may be personally identifiable (such as biography and photos). " />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/termscontenth2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/termshead"
+                    android:layout_marginTop="20dp"
+                    android:text="2" />
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/termscontenth2.2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/termshead"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="USE OF INFORMATION"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <com.bluebuddy.classes.MyTextView
+                android:id="@+id/termscontent2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/termshead"
+                android:layout_marginTop="20dp"
+                android:text="Any data collected and/or stored by us may be used to improve your personalized experience, our Services, develop new products and Services, improve our marketing and promotional efforts, analyze your use, and improve our content and product offerings. We also use the information we collect about you to resolve disputes, troubleshoot problems, and enforce our Terms of Service Agreement." />
+
+            <com.bluebuddy.classes.MyTextView
+                android:id="@+id/termscontent2.2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/termshead"
+                android:layout_marginTop="20dp"
+                android:text="We currently contract with online partners to help manage and optimize our business and communications. For example, we use the services of partners to help us deliver and measure the effectiveness of our advertising and how visitors use our Platform. To do this, we use third-party tracking technologies such as web beacons, pixels and cookies on this Platform and other websites and online services. A cookie is a piece of data stored on your computer that is tied to information about you. The type of information collected includes the URL you came from and go to, your browser information, and IP address, and helps us learn how to improve our service. We use these technologies for authentication, tracking user sessions, preferences, and movements around the Platform, anonymous and aggregated marketing analytics, performance analytics, ad retargeting and tracking aggregate trends on the Platform. No information shared with our partners through cookies and related technologies is directly linked to your Personally Identifiable Information. " />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/termscontenth3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/termshead"
+                    android:layout_marginTop="20dp"
+                    android:text="3" />
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/termscontenth3.3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/termshead"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="THIRD PARTYRELEASE"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <com.bluebuddy.classes.MyTextView
+                android:id="@+id/termscontent3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/termshead"
+                android:layout_marginTop="20dp"
+                android:text="We may share your personal information with third parties, such as other companies within the same group, companies that we cooperate with and subcontractors, for the purposes described in this Privacy Policy or in the event that we sell or buy any business or assets. You acknowledge and agree that your personal data may be hosted and/or transferred to such recipients. To comply with regulations, laws or any authority requests, we may disclose your information to authorities or other officials, without your prior consent." />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/termscontenth4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/termshead"
+                    android:layout_marginTop="20dp"
+                    android:text="4" />
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/termscontenth4.4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/termshead"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="COOKIES"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <com.bluebuddy.classes.MyTextView
+                android:id="@+id/termscontent4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/termshead"
+                android:layout_marginTop="20dp"
+                android:text="For our members' convenience, we also use cookies to allow you to enter your password less frequently during a session and to provide for an easier registration process. If you configure your browser or otherwise choose to reject the cookies, you may still use our site. However, to best experience our website and Services and most easily use our Services you must have cookies enabled. Our use of cookies is consistent with the rights and restrictions set forth in Section 2." />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/termscontenth5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/termshead"
+                    android:layout_marginTop="20dp"
+                    android:text="5" />
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/termscontenth5.5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/termshead"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="DISCLOSURE OF YOUR INFORMATION"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <com.bluebuddy.classes.MyTextView
+                android:id="@+id/termscontent5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/termshead"
+                android:layout_marginTop="20dp"
+                android:text="WITHOUT YOUR AFFIRMATIVE CONSENT (ON A CASE-BY-CASE BASIS), WE DO NOT SELL, RENT OR OTHERWISE SHARE YOUR PERSONALLY IDENTIFIABLE INFORMATION WITH OTHER THIRD PARTIES UNLESS OTHERWISE REQUIRED AS DESCRIBED BELOW UNDER REQUIRED DISCLOSURES. TO THE EXTENT WE SHARE INFORMATION WITH OUR PARTNERS AND ADVERTISERS, WE SHARE ONLY AGGREGATED OR OTHERWISE NON-PERSONALLY IDENTIFIABLE INFORMATION THAT IS NOT LINKED TO YOUR ACCOUNT." />
+
+            <com.bluebuddy.classes.MyTextView
+                android:id="@+id/termscontent5.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/termshead"
+                android:layout_marginTop="20dp"
+                android:text="You should understand that information you provide through the registration process or post to the public areas of our website, or through the use of our Services (including your name and location information) may be accessible by and made public through syndication programs and by search engines, metasearch tools, crawlers, metacrawlers and other similar programs." />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/termscontenth6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/termshead"
+                    android:layout_marginTop="20dp"
+                    android:text="6" />
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/termscontenth6.6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/termshead"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="REQUIRED DISCLOSURES"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <com.bluebuddy.classes.MyTextView
+                android:id="@+id/termscontent6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/termshead"
+                android:layout_marginTop="20dp"
+                android:text="Though we make every effort to preserve member privacy, we may need to disclose your personal information when required by law or if we have a good-faith belief that such action is necessary to (a) comply with a current judicial proceeding, a court order or legal process served on our website, (b) enforce this Policy or the Terms of Service Agreement, (c) respond to claims that your personal information violates the rights of third parties; or (d) protect the rights, property or personal safety of Blue Buddy, its members and the public. You authorize us to disclose any information about you to law enforcement or other government officials as we, in our sole discretion, believe necessary or appropriate, in connection with an investigation of fraud, intellectual property infringements, or other activity that is illegal or may expose you or us to legal liability." />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/termscontenth7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/termshead"
+                    android:layout_marginTop="20dp"
+                    android:text="7" />
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/termscontenth7.7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/termshead"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="COMMUNICATIONS FROM BLUE BUDDY AND MEMBERS OF THE COMMUNITY"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <com.bluebuddy.classes.MyTextView
+                android:id="@+id/termscontent7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/termshead"
+                android:layout_marginTop="20dp"
+                android:text="Communication from Blue Buddy and Members of the Blue Buddy Community are governed by our Terms of Service. " />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/termscontenth8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/termshead"
+                    android:layout_marginTop="20dp"
+                    android:text="8" />
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/termscontenth8.8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/termshead"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="SECURITY"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <com.bluebuddy.classes.MyTextView
+                android:id="@+id/termscontent8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/termshead"
+                android:layout_marginTop="20dp"
+                android:text="We will use commercially reasonable efforts to safeguard the confidentiality of your personal information. However, we cannot be held liable for any loss of or disclosure of data or any losses or damages incurred due to errors in transmission or unauthorized or unlawful acts of third parties or your decision to disclose your personal information." />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/termscontenth9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/termshead"
+                    android:layout_marginTop="20dp"
+                    android:text="9" />
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/termscontenth9.9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/termshead"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="REVIEWING, UPDATING, DELETING AND DEACTIVATING PERSONAL INFORMATION"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <com.bluebuddy.classes.MyTextView
+                android:id="@+id/termscontent9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/termshead"
+                android:layout_marginTop="20dp"
+                android:text="Upon your request, we will deactivate your account and remove your personal information from our active databases as reasonably possible in accordance with our deactivation policy and applicable law. To make this request, email Admin@thebluebuddy.com. Nonetheless, we will retain in our files information you may have requested us to remove if, in our discretion, retention of the information is necessary to resolve disputes, troubleshoot problems or to enforce the Terms of Service Agreement. Furthermore, your information is never completely removed from our databases due to technical and legal constraints (for example, we will not remove your information from our back up storage)." />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/termscontenth10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/termshead"
+                    android:layout_marginTop="20dp"
+                    android:text="10" />
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/termscontenth10.10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/termshead"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="NOTIFICATION OF CHANGES"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <com.bluebuddy.classes.MyTextView
+                android:id="@+id/termscontent10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/termshead"
+                android:layout_marginTop="20dp"
+                android:text="If we decide to change this Policy, we will post those changes on our website or post a notice of the changes to this Policy on the homepage and other places we deem appropriate, so you are always aware of what information we collect, how we use it, and under what circumstances, if any, we disclose it. We will use information in accordance with the Privacy Policy statement under which the information was collected." />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/termscontenth11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/termshead"
+                    android:layout_marginTop="20dp"
+                    android:text="11" />
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/termscontenth11.11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/termshead"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="DISPUTE RESOLUTION"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <com.bluebuddy.classes.MyTextView
+                android:id="@+id/termscontent11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/termshead"
+                android:layout_marginTop="20dp"
+                android:text="Any dispute, claim, or controversy arising out of or relating to this Policy or previous Privacy Policy statements shall be resolved through negotiation, mediation, and arbitration as provided under our Terms of Service Agreement." />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/termscontenth12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/termshead"
+                    android:layout_marginTop="20dp"
+                    android:text="12" />
+
+                <com.bluebuddy.classes.MyTextView
+                    android:id="@+id/termscontenth12.12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/termshead"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="CONTACT INFORMATION"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <com.bluebuddy.classes.MyTextView
+                android:id="@+id/termscontent12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/termshead"
+                android:layout_marginTop="20dp"
+                android:text="If members have any questions or suggestions regarding this Policy, please contact us using email, as follows: Email: " />
+
+            <com.bluebuddy.classes.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/termshead"
+                android:textColor="#2152ae"
+                android:text="Admin@thebluebuddy.com" />
+
+            <com.bluebuddy.classes.MyTextView
+                android:id="@+id/termscontent0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/termshead"
+                android:layout_marginTop="20dp"
+                android:text="This Privacy Policy is governed by the terms of the Blue Buddy Terms of Service Agreement." />
+
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_corner1"
+                android:text="Close"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

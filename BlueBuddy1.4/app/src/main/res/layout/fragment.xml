@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:gravity="left"
+    android:orientation="vertical"
+    tools:context="com.bluebuddy.activities.EnquiryActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_datePicker_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/date__picker_general"></include>
+    </LinearLayout>
+
+    <!-- <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="@drawable/border1"
+         android:layout_marginTop="@dimen/_5sdp"
+         android:layout_marginBottom="@dimen/_5sdp"
+        >
+         <TextView
+             android:id="@+id/tv_searchResultText"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="@string/search_result_for_choose_category"
+             android:textColor="@color/indexer_bar_selected_color"
+             android:gravity="center"
+             android:textSize="@dimen/_15sdp"
+             android:layout_marginTop="@dimen/_5sdp"
+             android:layout_marginBottom="@dimen/_5sdp"/>
+     </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="92"
+        android:background="@drawable/cmnbg"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="92"
+            android:background="@drawable/cmnbg"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_noDataFound"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="150dp"
+                android:gravity="center"
+                android:visibility="gone" />
+
+            <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|start"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/plusic" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

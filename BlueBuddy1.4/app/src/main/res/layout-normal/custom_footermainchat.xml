@@ -1,0 +1,274 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:layout_marginTop="565dp"
+        >
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1px"
+    android:background="#797878"></View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="3dp"
+            android:weightSum="5">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center|center_vertical">
+
+                    <ImageView
+                        android:id="@+id/img_allevt"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginTop="2dp"
+                        android:src="@drawable/date"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TRIP"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:textStyle="normal"
+                        android:layout_marginTop="3dp"
+                        android:textSize="12dp"
+                        />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_AllEventft"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAllCaps="false"
+                    android:textColor="#636363"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"/>
+
+            </FrameLayout>
+
+            <View
+    android:layout_width="1px"
+    android:layout_height="match_parent"
+    android:background="#757575" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center|center_vertical">
+
+                    <ImageView
+                        android:id="@+id/img_evtsrch"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/zoom"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SEARCH"
+                        android:layout_marginTop="3dp"
+                        android:textColor="#000000"
+                        android:textStyle="normal"
+                        android:textSize="12dp"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_evtsrch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAllCaps="false"
+                    android:textColor="#636363"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"/>
+
+
+            </FrameLayout>
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:background="#757575" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center|center_vertical">
+
+                    <ImageView
+                        android:id="@+id/img_bmrkt"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="2dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/blue_market"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MARKET"
+                        android:layout_marginTop="3dp"
+                        android:textColor="#000000"
+                        android:textStyle="normal"
+                        android:textSize="12dp"
+                        android:gravity="center"/>
+
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_bmrkt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAllCaps="false"
+                    android:textColor="#636363"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"/>
+
+            </FrameLayout>
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:background="#757575" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center|center_vertical">
+
+                    <ImageView
+                        android:id="@+id/img_chat"
+                        android:layout_width="24dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/chat"
+                        android:layout_gravity="center"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CHAT"
+                        android:layout_marginTop="3dp"
+                        android:textColor="#000000"
+                        android:textStyle="normal"
+                        android:textSize="12dp"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_chat"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAllCaps="false"
+                    android:textColor="#636363"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:background="@android:color/transparent"/>
+
+            </FrameLayout>
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:background="#757575" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center|center_vertical">
+
+                    <ImageView
+                        android:id="@+id/img_accnt"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/user"
+                        android:layout_marginTop="2dp"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ACCOUNT"
+                        android:layout_marginTop="3dp"
+                        android:textColor="#000000"
+                        android:textStyle="normal"
+                        android:textSize="12dp"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_Account"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAllCaps="false"
+                    android:textColor="#636363"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"/>
+
+            </FrameLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</merge>

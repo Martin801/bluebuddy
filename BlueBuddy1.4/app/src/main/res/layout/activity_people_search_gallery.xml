@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bluebuddy.activities.EnquiryActivity"
+    android:gravity="left"
+    android:focusableInTouchMode="true"
+    android:weightSum="100">
+
+    <include layout="@layout/navbar_blue"></include>
+
+    <!--<include layout="@layout/custom_searchbar"></include>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="92.5"
+        android:background="@drawable/cmnbg">
+
+       <!-- <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_pplsrch"
+            android:scrollbars="none"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>-->
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/ppsrchglr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/custom_footer" />
+
+</LinearLayout>

@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view_cert"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="3dp"
+    android:layout_marginTop="8dp"
+    android:clickable="true"
+    android:foreground="?selectableItemBackground"
+    card_view:cardBackgroundColor="#ffffff"
+    card_view:cardCornerRadius="12dp"
+    card_view:cardElevation="3dp"
+    card_view:contentPadding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <!-- <LinearLayout
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="30">
+
+             <ImageView
+                 android:id="@+id/bmcpic"
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:adjustViewBounds="true"
+                 android:scaleType="fitXY"
+                 android:background="@drawable/rect_img"
+                 android:src="@drawable/bluemarketpic" />
+
+         </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="70"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="80">
+
+                    <TextView
+                        android:id="@+id/ctype"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text=""
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <!--
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="20">
+                                    &lt;!&ndash;
+                                <ImageView
+                                    android:id="@+id/txtupicid"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:layout_gravity="center"
+                                    android:background="@drawable/circle_bm"
+                                    />
+                                    &ndash;&gt;
+                                    <FrameLayout
+                                        android:id="@+id/frameBuddies"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="40dp"
+                                            android:layout_gravity="center"
+                                            android:src="@drawable/circle_bm" />
+
+                                        <TextView
+                                            android:id="@+id/bmcprice"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center"
+                                            android:text="0"
+                                            android:textColor="#ffffff"
+                                            android:textSize="13sp" />
+
+                                        <Button
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:background="@android:color/transparent" />
+
+                                    </FrameLayout>
+
+                                </LinearLayout>
+                -->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Agency Name: "
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/cname"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:text="" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView22"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Certification Number: "
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/cnum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Certification Level: "
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/clvl"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:text="" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/crtlstv2"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView232"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/clvl2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:text="" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/crtlstv3"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/clvl3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:text="" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:weightSum="10">
+
+                    <LinearLayout
+                        android:id="@+id/linearCourseChat"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4.75">
+
+                        <Button
+                            android:id="@+id/chatBtn"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="@drawable/round_corner1"
+                            android:text="Edit"
+                            android:textColor="#ffffff"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearCourseEdit"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4.75"
+                        android:visibility="gone">
+
+                        <Button
+                            android:id="@+id/bmcedt"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="@drawable/round_corner1"
+                            android:text="Edit"
+                            android:textColor="#ffffff"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".5">
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4.75">
+
+                        <Button
+                            android:id="@+id/bmcdet"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="@drawable/round_corner1"
+                            android:text="Delete"
+                            android:textColor="#ffffff"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--  <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:gravity="right"
+                  android:layout_marginTop="5dp">
+
+                  <ImageView
+                      android:id="@+id/report_flag"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="right"
+                      android:background="@drawable/ic_flag" />
+              </LinearLayout>-->
+        </LinearLayout>
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

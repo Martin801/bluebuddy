@@ -1,0 +1,81 @@
+{
+  "project_info": {
+    "project_number": "654247697214",
+    "firebase_url": "https://bluebuddy-e452e.firebaseio.com",
+    "project_id": "bluebuddy-e452e",
+    "storage_bucket": "bluebuddy-e452e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654247697214:android:49a1d37a45bcd3e8",
+        "android_client_info": {
+          "package_name": "com.bluebuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654247697214-0pg51680sco1djbipfmins8av257afmp.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "654247697214-0pg51680sco1djbipfmins8av257afmp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8JMnp1cs2P7ekZhJmA6QhpYtRBP4IFtY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654247697214:android:be18ad50c000ba36",
+        "android_client_info": {
+          "package_name": "com.theaquarious.ravinsana.bluebuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654247697214-0pg51680sco1djbipfmins8av257afmp.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "654247697214-0pg51680sco1djbipfmins8av257afmp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8JMnp1cs2P7ekZhJmA6QhpYtRBP4IFtY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

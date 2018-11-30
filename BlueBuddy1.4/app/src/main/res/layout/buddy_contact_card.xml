@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/row">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:weightSum="10">
+    <ImageView
+        android:id="@+id/pro_img"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"/>
+        <!--
+-->
+<com.bluebuddy.classes.MyTextView
+    android:id="@+id/name"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:text=" "
+    android:gravity="left|center"
+    android:layout_marginLeft="15dp"
+    android:layout_weight="7.1"
+    android:textSize="18sp"
+    android:singleLine="true"
+    android:textColor="#FF020202"/>
+
+    <ImageView
+        android:id="@+id/pplcert1"
+        android:layout_width="0dp"
+        android:layout_marginRight="5dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".7"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:visibility="gone"
+        android:src="@drawable/oxygen_cy1" />
+
+        <!--<ImageView
+            android:id="@+id/pplcert2"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:src="@drawable/cylinder"
+            android:visibility="gone" />-->
+
+    <ImageView
+        android:id="@+id/pplcert2"
+        android:layout_width="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/scubaimg"
+        android:paddingBottom="15dp"
+        android:visibility="gone"
+        android:paddingTop="15dp"
+        android:layout_weight=".7"
+       />
+        </LinearLayout>
+   <!-- <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"></View>
+    <ImageView
+        android:id="@+id/chat"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/chatting_icon"
+        android:layout_weight="1"/>
+       -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#757575"
+        android:layout_marginTop="5dp"/>
+</LinearLayout>

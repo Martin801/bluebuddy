@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bluebuddy.activities.CreateEventActivity"
+    android:gravity="left"
+    android:focusableInTouchMode="true"
+    android:weightSum="100">
+
+    <include layout="@layout/navbar_blue"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="92"
+        android:background="@drawable/cmnbg"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="92"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <!-- <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:gravity="left|center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trip Name"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/cp3ncrt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:lines="1"
+                android:background="@android:color/transparent"
+                android:hint="@string/txt_t41"
+                android:inputType="text"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="10dp"
+                android:background="#757575" />
+
+        </LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="left|center_horizontal"
+                android:orientation="vertical">
+
+                <com.bluebuddy.classes.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_t42"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/cp3cnum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/txt_t43"
+                    android:inputType="text"
+                    android:lines="1"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="10dp"
+                    android:background="#757575" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="left|center_horizontal"
+                android:orientation="vertical">
+
+                <com.bluebuddy.classes.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Event Date"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/frm_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <EditText
+                        android:id="@+id/CEdf1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:focusable="false"
+                        android:inputType="none"
+                        android:lines="1"
+                        android:textSize="14sp" />
+
+
+                    <ImageView
+                        android:id="@+id/IVdf1"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignRight="@+id/CEdf1"
+                        android:src="@drawable/date2" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1px"
+                        android:layout_below="@+id/CEdf1"
+                        android:layout_marginTop="9dp"
+                        android:background="#757575" />
+
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/frm_date1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent" />
+            </FrameLayout>
+            <!--
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="@string/txt_t46"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="@string/txt_t47"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp">
+                    <RelativeLayout
+                        android:id="@+id/frm_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        >
+
+                        <EditText
+                            android:id="@+id/CEdf1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:focusable="false"
+                            android:inputType="none"
+                            android:lines="1"
+                            android:background="@android:color/transparent"/>
+
+
+                        <ImageView
+                            android:id="@+id/IVdf1"
+                            android:layout_alignRight="@+id/CEdf1"
+                            android:src="@drawable/date2"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"/>
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1px"
+                            android:layout_below="@+id/CEdf1"
+                            android:layout_marginTop="9dp"
+                            android:background="#757575"
+                            />
+
+                    </RelativeLayout>
+                    <Button
+                        android:id="@+id/frm_date1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"/>
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="5">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp">
+                    <RelativeLayout
+                        android:id="@+id/to_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        >
+
+                        <EditText
+                            android:id="@+id/CEt1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:inputType="none"
+                            android:focusable="false"
+                            android:lines="1"
+                            android:background="@android:color/transparent"/>
+
+                        <ImageView
+                            android:id="@+id/IVt1"
+                            android:layout_alignRight="@+id/CEt1"
+                            android:src="@drawable/date2"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"/>
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1px"
+                            android:layout_below="@+id/CEt1"
+                            android:layout_marginTop="9dp"
+                            android:background="#757575"
+                            />
+                    </RelativeLayout>
+                    <Button
+                        android:id="@+id/to_date1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"/>
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:orientation="vertical">
+
+                <com.bluebuddy.classes.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_t48"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/spacttype"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:prompt="@string/Activity_prompt"
+                    android:spinnerMode="dropdown"
+                    android:textSize="16sp"
+                    style="@style/TestSpinnerStyle">
+
+                </Spinner>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="4dp"
+                    android:background="#757575" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="23dp"
+                android:gravity="left|center_horizontal"
+                android:orientation="vertical">
+
+                <com.bluebuddy.classes.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Trip Description"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/tellstid"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/border"
+                    android:gravity="start"
+                    android:hint="Please enter your trip details"
+                    android:inputType="textMultiLine"
+                    android:lines="1"
+                    android:maxLength="250"
+                    android:overScrollMode="always"
+                    android:padding="10dp"
+                    android:scrollbarAlwaysDrawVerticalTrack="true"
+                    android:scrollbarStyle="insideInset"
+                    android:scrollbars="vertical"
+                    android:textSize="16sp" />
+                <!--
+            <EditText
+                android:id="@+id/cp3clvl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/transparent"
+                android:hint="@string/txt_t50"
+                android:lines="1"
+                android:inputType="text"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="10dp"
+                android:background="#757575" />
+
+            -->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="40dp"
+                android:layout_weight="15"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_cevent"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_corner1"
+                    android:onClick="crevent"
+                    android:text="@string/btn_cesbmt"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/custom_footer" />
+
+</LinearLayout>
